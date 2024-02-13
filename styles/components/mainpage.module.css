@@ -1,0 +1,58 @@
+.carousel1{
+    display: flex;
+    justify-content: space-between;
+    padding: 49px 80px 20px 70px;
+    align-items: center;
+    background-color: white;
+        
+}
+.carousel1 img{
+
+    width: 45%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 0px 0px 0px;
+}
+.content h2{
+    font-size: 60px;
+    font-weight: 500;
+    /* line-height: 95px; */
+}
+.content span{
+    color: #475467;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 400;
+}
+.stores{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.stores img{
+    width: 160px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.downloads img{
+    width: 162px;
+}
+.downloads{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+}
+.downloads span{
+    color: #475467;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}

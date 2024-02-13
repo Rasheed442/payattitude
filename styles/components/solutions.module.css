@@ -1,0 +1,107 @@
+.Solutions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 80px;
+}
+.Solutions p{
+    color: #F58220;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.Solutions h3{
+    font-weight: 500;
+    font-size: 35px;
+    color: #1D2939;
+    letter-spacing: -2%;
+}
+.Solutions span{
+    color: #475467;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 28px;
+}
+.payattitude p{
+    color: #1D2939;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 38px;
+}
+.payattitude{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 0px 20px 40px;
+    border-left: 5px solid #F2F4F7;
+}
+.payattitude span{
+        color: #7b8492;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 300;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    /* gap: 40px; */
+            /* border-left: 5px solid #F2F4F7; */
+            /* padding: 20px; */
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 70px; */
+    align-items: center;
+        padding: 30px 158px 20px 40px;
+}
+.top img{
+    width: 48%;
+    height: 48%;
+}
+.ussd{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content:center;
+    gap: 40px;
+    /* padding:20px 80px 130px 80px; */
+    padding: 20px 360px 130px 360px;
+}
+.shadow{
+    padding:30px ;
+    box-shadow: 0px 0px 10px 10px #043F2E0A;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 20px;
+}
+.shadow span{
+    background-color: #6075F4;
+    width: 34px;
+    height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+.shadow img{
+}
+.providerimg{
+    padding:-60px;
+}
+.shadow p{
+    color: #777c79;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.shadow h3{
+    color: #0D2D53;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 30px;
+}

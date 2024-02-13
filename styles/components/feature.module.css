@@ -1,0 +1,95 @@
+.background{
+    background-color: black;
+    position: relative;
+        padding: 50px 50px 140px 50px;
+}
+.eclipse {
+}
+.eclipse img{
+    position: absolute;
+    right: 0;
+    /* height: 100px; */
+}
+.features{
+    display: flex;
+    flex-direction: column;
+    padding: 120px 0px 40px 0px;
+    gap: 10px;
+    text-align: center;
+align-items: center;
+}
+.features span{
+    color: #F58220;
+    font-size: 16px;
+    font-weight:400;
+}
+.features p{
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    letter-spacing: -2%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 60px;
+}
+.lottie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 378px; */
+    gap: 20px;
+    text-align: center;
+}
+.lottie p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+}
+.lottie span{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.swiperslide{
+    display: flex;
+    padding: 0px 100px 0px 100px;
+    gap: 100px;
+}
+.swiperslide img{
+    width: 45%;
+}
+.contentslides h2{
+   color: #0D2D53;
+   line-height: 60px;
+   font-size: 42px;
+   font-weight: 500;
+}
+.contentslides p{
+    font-size: 20px;
+    color: #344054;
+    font-weight: 400;
+    line-height: 36px;
+}
+.contentslides{
+    padding: 100px 0px 0px 0px ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contentslides span{
+    color: #F58220;
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.phonepos{
+    background-color: #ECEEF1;
+    padding: 50px;
+}

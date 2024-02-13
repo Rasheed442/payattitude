@@ -1,0 +1,49 @@
+.header{
+    background-color: #101828;
+    padding: 50px 70px 30px 50px;
+    margin: 90px 0px 0px 0px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 170px;
+}
+.top img{
+  width: 150px;
+}
+.socials img{
+    width: 35px;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.label h2{
+    color: #D0D5DD;
+    font-size: 14px;
+    font-weight: 28px;
+    font-weight: 500;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.links span{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

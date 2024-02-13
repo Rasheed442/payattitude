@@ -1,0 +1,94 @@
+ .container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 30px 80px 20px 70px;
+ }
+ .container img{
+    width: 150px;
+ }
+ .navlink span {
+     color: #1D2939;
+     display: flex;
+     align-items: flex-end;
+     gap: 7px;
+     transition: 0.5s;
+     padding-bottom: 10px;
+     justify-content: center;
+     text-align: center;
+ }
+ .navlink span:hover{
+    color: #F58220;
+    border-bottom: 2px solid #F58220;
+ }
+ .navlink{
+    display: flex;
+    gap: 32px;
+ }
+ .btn button{
+    background-color: #F58220;
+    border: none;
+    width: 142px;
+    padding: 16px
+        20px
+        16px
+        20px;
+        border-radius: 8px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+ }
+ .btn2 button{
+    background-color: #F58220;
+    border: none;
+    width: 142px;
+    padding: 16px
+        20px
+        16px
+        20px;
+        border-radius: 8px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+ }
+ .navmenu{
+   display: none;
+ }
+ .menubar{
+   display: none;
+ }
+
+ @media screen and (max-width:952px) {
+   .navlink{
+      display: none;
+   }
+   .btn{
+      display: none;
+   }
+   .menubar{
+      display: block;
+   }
+       .navmenu {
+         width: 300px;
+         height: 100vh;
+         left: 0;
+         top: 0;
+          display: block;
+          display: flex;
+          background-color: white;
+          position: absolute;
+          flex-direction: column;
+          gap: 30px;
+          padding: 8rem 30px 0px 30px;
+       }
+       .navmenu span{
+         color: black;
+         transition: 0.2s;
+         display: flex;
+         align-items: center;
+         gap: 20px;
+       }
+       .navmenu span:hover{
+         color: #F58220;
+       }
+ }
