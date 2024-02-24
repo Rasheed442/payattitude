@@ -1,16 +1,5 @@
 import React, { useRef, useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
-import "swiper/css/effect-fade";
-// import "./styles.css";
-// import required modules
-import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
-import style from "../styles/playground.module.css";
-import { flow1, flow2, imagecaro1, imagecaro2 } from "@/public/IMAGES";
-import Image from "next/image";
 function playground() {
   return (
     <>

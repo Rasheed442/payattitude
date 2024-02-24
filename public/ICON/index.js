@@ -14,6 +14,10 @@ import twitter from "./twiiter.svg";
 import linkdln from "./linkedln.svg";
 import insta from "./insta.svg";
 import facebook from "./facebook.svg";
+import group2 from "./group2.svg";
+import userguide from "./userguide.svg";
+import doccontact from "./doccontact.svg";
+import check from "./check.svg";
 export {
   payattitude,
   googleplaystore,
@@ -31,4 +35,8 @@ export {
   linkdln,
   insta,
   facebook,
+  group2,
+  userguide,
+  doccontact,
+  check,
 };

@@ -1,0 +1,112 @@
+.prodbg {
+    background-image: url("../../public/ICON/faq.svg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 49vh;
+}
+.prodbg2 {
+    background-image: url("../../public/ICON/userguide.svg");
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 49vh;
+}
+
+.top {
+    padding: 28px 0px 0px 0px;
+}
+.frq{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 120px 0px 50px 0px;
+}
+.frq h2{
+    color: #1D2939;
+    line-height: 44px;
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: -2%;
+}
+.frq span{
+    color: #475467;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.search{
+    border: 1px solid gainsboro;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    border-radius: 5px;
+    width: 20vw;
+    align-items: center;
+}
+.search input{
+    border: none;
+    width: 100%;
+}
+.search ::placeholder{
+    color: #47546780;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 260px 0px 260px;
+    /* border-bottom: 1px solid #EAECF0; */
+}
+.content p{
+    color: #1D2939;
+    font-size: 20px;
+    font-weight: 400;
+}
+.quest{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 0px 0px 120px 0px;
+}
+.semifooter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #ECEEF1;
+    padding: 80px;
+}
+.semifooter button{
+    background-color: #F58220;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 10%;
+    border-radius: 5px;
+}
+.semifooter p{
+    color: #475467;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: center;
+}
+.semifooter span{
+    color: #1D2939;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: center;
+}

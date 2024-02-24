@@ -105,3 +105,77 @@
     font-weight: 500;
     line-height: 30px;
 }
+@media screen and (max-width:1406px) {
+    .providerimg img{
+        width: 308px;
+    }
+}
+@media screen and (max-width:1316px) {
+  .top{
+            padding: 30px 60px 20px 40px;
+  }
+}
+@media screen and (max-width:1198px) {
+    .ussd{
+        display: grid;
+            grid-template-columns: repeat(2, auto);
+                padding: 20px 360px 130px 360px;
+    }
+}
+@media screen and (max-width:1151px) {
+    .top img {
+        width: 38%;
+    }
+}
+@media screen and (max-width:996px) {
+    .top{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .top img{
+        width:60%;
+    }
+}
+@media screen and (max-width:792px) {
+    .ussd{
+        display: grid;
+            grid-template-columns: repeat(2, auto);
+                padding: 20px 100px 130px 60px;
+    }
+ 
+     
+}
+@media screen and (max-width:792px) {
+    .ussd{
+        display: grid;
+            grid-template-columns: repeat(1, auto);
+            justify-content: center;
+    }
+          .providerimg img {
+          }
+          .shadow{
+            padding: 0px 30px 30px 30px;
+          }
+}
+@media screen and (max-width:500px) {
+   .top img{
+    width: 100%;
+   }
+}
+.ussd {
+    padding: 20px 60px 130px 60px;
+}
+
+@media screen and (max-width:404px) {
+.shadow img {
+    width: 100%;
+}
+   .shadow{
+            padding: 0px 30px 30px 30px;
+          }
+}
+@media screen and (max-width:350px) {
+   .top img{
+    width: 100%;
+   }
+}

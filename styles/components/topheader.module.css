@@ -13,17 +13,19 @@
      align-items: flex-end;
      gap: 7px;
      transition: 0.5s;
+     cursor: pointer;
      padding-bottom: 10px;
      justify-content: center;
      text-align: center;
  }
- .navlink span:hover{
+ /* .navlink span:hover{
     color: #F58220;
     border-bottom: 2px solid #F58220;
- }
+ } */
  .navlink{
     display: flex;
     gap: 32px;
+    position: relative;
  }
  .btn button{
     background-color: #F58220;
@@ -38,27 +40,42 @@
         font-size: 15px;
         font-weight: 500;
  }
- .btn2 button{
-    background-color: #F58220;
-    border: none;
-    width: 142px;
-    padding: 16px
-        20px
-        16px
-        20px;
-        border-radius: 8px;
-        color: white;
-        font-size: 15px;
-        font-weight: 500;
- }
+
  .navmenu{
    display: none;
  }
  .menubar{
    display: none;
  }
-
+ .submenu{
+   position: absolute;
+   box-shadow: 0px 0px 20px 0px gray;
+   width: 30%;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   border-radius: 5px;
+   padding: 15px;
+   font-family: 15px;
+   background-color: white;
+   z-index: 99;
+ }
+ .submenu p{
+      color: black;
+ }
+.navmenucontainer{
+   display: none;
+}
+/* @media screen and (max-width:1106) {
+   .container {
+         padding: 0px 0px 0px 0px;
+         display: none;
+      }
+} */
  @media screen and (max-width:952px) {
+   .container{
+         padding: 20px;
+   }
    .navlink{
       display: none;
    }
@@ -68,27 +85,41 @@
    .menubar{
       display: block;
    }
-       .navmenu {
-         width: 300px;
+   .navmenu{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding-top: 100px;
+   }
+       .btn2 button {
+          background-color: #F58220;
+          border: none;
+          width: 142px;
+          padding: 16px 20px 16px 20px;
+          border-radius: 8px;
+          color: white;
+          font-size: 15px;
+          font-weight: 500;
+         }
+         .btn2{
+          position: absolute;
+          top: 360px;
+                  z-index: 99;
+
+       }
+       .navmenucontainer{
+         position: absolute;
+         padding: 20px;
+         top: 80px;
+         z-index: 99999;
+         background-color:white;
          height: 100vh;
          left: 0;
+         right: 0;
          top: 0;
-          display: block;
-          display: flex;
-          background-color: white;
-          position: absolute;
-          flex-direction: column;
-          gap: 30px;
-          padding: 8rem 30px 0px 30px;
+         bottom: 0;
+         display: block;
+         width: 320px;
        }
-       .navmenu span{
-         color: black;
-         transition: 0.2s;
-         display: flex;
-         align-items: center;
-         gap: 20px;
-       }
-       .navmenu span:hover{
-         color: #F58220;
-       }
+
  }

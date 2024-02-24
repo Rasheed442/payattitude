@@ -93,3 +93,35 @@ align-items: center;
     background-color: #ECEEF1;
     padding: 50px;
 }
+
+
+@media screen and (max-width:1108px) {
+    .grid{
+            grid-template-columns: repeat(2, 1fr);
+            }
+}
+@media screen and (max-width:1026px) {
+    .contentslides h2{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .contentslides p{
+        font-size: 17px;
+    }
+    .contentslides{
+            display: flex;
+            flex-direction: column;
+            gap:20px;
+    }
+  .swiperslide img{
+    display: none;
+  }
+}
+@media screen and (max-width:703px) {
+    .grid{
+            grid-template-columns: repeat(1, 1fr);
+            }
+            .swiperslide{
+                    padding: 0px 30px 0px 30px;
+            }
+}
