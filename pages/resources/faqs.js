@@ -2,7 +2,7 @@ import TopHeader from "@/component/TopHeader";
 import React from "react";
 import style from "../../styles/PagesStyle/faq.module.css";
 import { AiOutlinePlus, AiOutlineSearch } from "react-icons/ai";
-import { Faqquestions } from "../faqQuestion";
+// import { Faqquestions } from "../faqQuestion";
 import Image from "next/image";
 import { group2 } from "@/public/ICON";
 import Footer from "@/component/Footer";
@@ -22,7 +22,7 @@ function faqs() {
         </div>
       </div>
 
-      <div className={style.quest}>
+      {/* <div className={style.quest}>
         {Faqquestions.map((f) => {
           return (
             <div className={style.content}>
@@ -31,7 +31,7 @@ function faqs() {
             </div>
           );
         })}
-      </div>
+      </div> */}
       <div className={style.semifooter}>
         <Image src={group2} />
         <span>Still have questions</span>

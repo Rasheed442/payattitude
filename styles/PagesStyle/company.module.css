@@ -48,7 +48,7 @@
     position: absolute;
     bottom: 40px;
     left: 40px;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .content span{
     line-height: 30px;
