@@ -17,11 +17,11 @@ function contact() {
       icon: flow2,
       name: "Phone Numbers",
       title:
-        "020-1-2272870 0700-Payattitude (070072928848833) +234 902 068 2250(Whatsapp)",
+        "020-1-22728700700-Payattitude (070072928848833)+234 902 068 2250(Whatsapp)",
     },
     {
       icon: flow3,
-      name: "Address",
+      name: "Email",
       title: "customerservice@payattitude.com",
     },
   ];

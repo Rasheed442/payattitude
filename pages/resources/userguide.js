@@ -1,12 +1,14 @@
 import TopHeader from "@/component/TopHeader";
-import React from "react";
+import React, { useState } from "react";
 import style from "../../styles/PagesStyle/faq.module.css";
 import { AiOutlinePlus, AiOutlineSearch } from "react-icons/ai";
-// import { Faqquestions } from "../userguideQuestion";
+import { Faqquestions } from "../../component/userguideQuestion";
 import Image from "next/image";
 import { group2 } from "@/public/ICON";
 import Footer from "@/component/Footer";
 function userguide() {
+  const [answer, setAnswer] = useState(null);
+
   return (
     <div>
       <TopHeader />
@@ -24,16 +26,19 @@ function userguide() {
         </div>
       </div>
 
-      {/* <div className={style.quest}>
-        {Faqquestions.map((f) => {
+      <div className={style.quest}>
+        {Faqquestions.map((f, index) => {
           return (
-            <div className={style.content}>
-              <p>{f.title}</p>
-              <span>{f.icon}</span>
+            <div key={index} className={style.index}>
+              <div className={style.content}>
+                <p>{f.title}</p>
+                <p onClick={() => setAnswer(index)}>{f.icon}</p>
+              </div>
+              {answer === index && <span>{f.answ}</span>}
             </div>
           );
         })}
-      </div> */}
+      </div>
       <div className={style.semifooter}>
         <Image src={group2} />
         <span>Still have questions</span>

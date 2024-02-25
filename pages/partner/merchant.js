@@ -6,7 +6,9 @@ import Image from "next/image";
 import { appstore, check, googleplaystore, payattitude } from "@/public/ICON";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Footer from "@/component/Footer";
+import ListOfMerchant, { merchants } from "@/component/ListOfMerchant";
 function merchant() {
+  <ListOfMerchant />;
   const about = [
     {
       icon: check,
@@ -244,24 +246,16 @@ function merchant() {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>RASHEED</td>
-                <td>23 WHITE HOUSE ASO ROCK</td>
-                <td>ABUJA</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>ENIOLA</td>
-                <td>23 WHITE HOUSE ASO ROCK</td>
-                <td>ABUJA</td>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>RASHEED</td>
-                <td>23 WHITE HOUSE ASO ROCK</td>
-                <td>ABUJA</td>
-              </tr>
+              {merchants.map((m) => {
+                return (
+                  <tr>
+                    <td>{m.no}</td>
+                    <td>{m.location}</td>
+                    <td>{m.address}</td>
+                    <td>{m.state}</td>
+                  </tr>
+                );
+              })}
             </tbody>
           </table>
         </div>
