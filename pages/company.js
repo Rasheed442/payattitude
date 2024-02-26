@@ -5,12 +5,32 @@ import Image from "next/image";
 import { bord, bord1, bord2, bord3, bord4, bord5 } from "@/public/IMAGES";
 import { appstore, googleplaystore } from "@/public/ICON";
 import Footer from "@/component/Footer";
+import Francis from "@/bod/Francis";
+import Agada from "@/bod/Agada";
+import Victor from "@/bod/Victor";
+import Samson from "@/bod/Samson";
+import Segun from "@/bod/Segun";
+import Kelvin from "@/bod/Kelvin";
 function company() {
   const [mission, setMission] = useState(true);
   const [vision, setVision] = useState();
   const [core, setCore] = useState();
+  // bord usestates
+
+  const [Franciss, setFranciss] = useState(false);
+  const [Agadas, setAgadas] = useState(false);
+  const [victors, setVictors] = useState(false);
+  const [sampsons, setSampsons] = useState(false);
+  const [seguns, setSeguns] = useState(false);
+  const [kelvins, setKelvins] = useState(false);
   return (
     <div>
+      {Franciss && <Francis close={setFranciss} />}
+      {Agadas && <Agada close={setAgadas} />}
+      {victors && <Victor close={setVictors} />}
+      {sampsons && <Samson close={setSampsons} />}
+      {seguns && <Segun close={setSeguns} />}
+      {kelvins && <Kelvin close={setKelvins} />}
       <TopHeader />
       <div className={style.top}>
         <div className={style.prodbg}></div>
@@ -113,12 +133,12 @@ function company() {
       </div>
 
       <div className={style.chairmen}>
-        <Image src={bord} />
-        <Image src={bord1} />
-        <Image src={bord2} />
-        <Image src={bord3} />
-        <Image src={bord4} />
-        <Image src={bord5} />
+        <Image src={bord} onClick={() => setFranciss(true)} />
+        <Image src={bord1} onClick={() => setAgadas(true)} />
+        <Image src={bord2} onClick={() => setVictors(true)} />
+        <Image src={bord3} onClick={() => setSampsons(true)} />
+        <Image src={bord4} onClick={() => setSeguns(true)} />
+        <Image src={bord5} onClick={() => setKelvins(true)} />
       </div>
       <div className={style.secfoot}>
         <span>What are you waiting for?</span>

@@ -20,7 +20,7 @@ function Footer() {
           </div>
         </div>
 
-        <div className={style.label}>
+        {/* <div className={style.label}>
           <h2>Products</h2>
           <div className={style.links}>
             <Link href="">
@@ -33,28 +33,23 @@ function Footer() {
               <span>Payattitude Corporate</span>
             </Link>
           </div>
-        </div>
+        </div> */}
         <div className={style.label}>
           <h2>Company</h2>
           <div className={style.links}>
-            <Link href="">
+            <Link href="/company">
               <span>About us</span>
             </Link>
-            <Link href="">
-              <span>Careers</span>
+            <Link href="/resources/faqs">
+              <span>Faqs</span>
             </Link>
-            <Link href="">
-              <span>Press</span>
+            <Link href="/contact">
+              {" "}
+              <span>Contact Us</span>{" "}
             </Link>
-            <Link href="">
-              <span>Support</span>
-            </Link>
-            <Link href="">
-              <span>Management</span>
-            </Link>
-            <Link href="">
-              <span>Services</span>
-            </Link>
+            <Link href="">{/* <span>Press</span> */}</Link>
+            <Link href="">{/* <span>Support</span> */}</Link>
+            <Link href="">{/* <span>Management</span> */}</Link>
           </div>
         </div>
         <div className={style.label}>
@@ -66,21 +61,18 @@ function Footer() {
           </div>
         </div>
         <div className={style.label}>
-          <h2>Reach Us</h2>
+          <h2>Contact Us</h2>
           <div className={style.links}>
-            <Link href="">
-              <span>
-                <IoMdMail size={20} />
-                Customerservice@payattitude.com
-              </span>
-            </Link>
-            <Link href="">
-              <span>
-                {" "}
-                <MdAddCall size={20} />
-                Payattitude Digital Collection
-              </span>
-            </Link>
+            <span>
+              <IoMdMail size={20} />
+              customerservice@payattitude.com
+            </span>
+            <span> Payattitude Digital Collection</span>
+            <span>
+              <MdAddCall size={20} />
+              Phone:020-1-2272870
+            </span>
+            <span>Address: 3, Idowu Taylor street, Victoria Island, Lagos</span>
           </div>
         </div>
       </div>
