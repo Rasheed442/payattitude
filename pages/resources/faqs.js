@@ -1,13 +1,18 @@
 import TopHeader from "@/component/TopHeader";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import style from "../../styles/PagesStyle/faq.module.css";
 import { AiOutlinePlus, AiOutlineSearch } from "react-icons/ai";
 import Image from "next/image";
 import { group2 } from "@/public/ICON";
 import Footer from "@/component/Footer";
 import { faqQuestion } from "@/component/faqQuestion";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function faqs() {
   const [answer, setAnswer] = useState(null);
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <div>
       <TopHeader />
@@ -29,7 +34,9 @@ function faqs() {
             <div key={index} className={style.index}>
               <div className={style.content}>
                 <p>{f.title}</p>
-                <p onClick={() => setAnswer(index)}>{f.icon}</p>
+                <p onClick={() => setAnswer(answer === index ? !index : index)}>
+                  {f.icon}
+                </p>
               </div>
               {answer === index && <span>{f.answ}</span>}
             </div>

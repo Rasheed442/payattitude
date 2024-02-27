@@ -5,18 +5,32 @@ import Link from "next/link";
 import { facebook, insta, linkdln, payattitude, twitter } from "@/public/ICON";
 import { IoMdMail } from "react-icons/io";
 import { MdAddCall } from "react-icons/md";
-
+import { useRouter } from "next/router";
 function Footer() {
+  const router = useRouter();
   return (
     <div className={style.header}>
       <div className={style.container}>
         <div className={style.top}>
           <Image src={payattitude} priority />
           <div className={style.socials}>
-            <Image src={twitter} priority />
-            <Image src={linkdln} priority />
-            <Image src={insta} priority />
-            <Image src={facebook} priority />
+            <Image
+              src={twitter}
+              priority
+              onClick={() =>
+                (window.location = "https://twitter.com/getpayattitude")
+              }
+            />
+            <Image
+              src={linkdln}
+              priority
+              onClick={() =>
+                (window.location =
+                  "https://ph.linkedin.com/company/getpayattitude")
+              }
+            />
+            {/* <Image src={insta} priority />
+            <Image src={facebook} priority /> */}
           </div>
         </div>
 
