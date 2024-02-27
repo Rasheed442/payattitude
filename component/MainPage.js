@@ -138,8 +138,20 @@ function MainPage() {
 
               <div className={style.group}>
                 <div className={style.stores}>
-                  <Image src={googleplaystore} />
-                  <Image src={appstore} />
+                  <Image
+                    src={googleplaystore}
+                    onClick={() =>
+                      (window.location =
+                        "https://digital.payattitude.com/completesignup")
+                    }
+                  />
+                  <Image
+                    src={appstore}
+                    onClick={() =>
+                      (window.location =
+                        "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
+                    }
+                  />
                 </div>
                 <div className={style.downloads}>
                   <Image src={group} priority />

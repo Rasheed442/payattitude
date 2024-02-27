@@ -98,9 +98,21 @@ function Why() {
             Join 100k+ people who transact with
             <br /> <span>Payattitude</span>
           </p>
-          <div className={style.store}>
-            <Image src={googleplaystore} />
-            <Image src={appstore} />
+          <div className={style.store} style={{ cursor: "pointer" }}>
+            <Image
+              src={googleplaystore}
+              onClick={() =>
+                (window.location =
+                  "https://digital.payattitude.com/completesignup")
+              }
+            />
+            <Image
+              src={appstore}
+              onClick={() =>
+                (window.location =
+                  "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
+              }
+            />
           </div>
         </div>
         <Image src={payattitudemob} />

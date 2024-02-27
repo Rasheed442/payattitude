@@ -144,9 +144,21 @@ function company() {
         <span>What are you waiting for?</span>
         <h2>Get your new Payment Digital remote now!!</h2>
         <p>Download the app</p>
-        <div className={style.download}>
-          <Image src={googleplaystore} />
-          <Image src={appstore} />
+        <div className={style.download} style={{ cursor: "pointer" }}>
+          <Image
+            src={googleplaystore}
+            onClick={() =>
+              (window.location =
+                "https://digital.payattitude.com/completesignup")
+            }
+          />
+          <Image
+            src={appstore}
+            onClick={() =>
+              (window.location =
+                "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
+            }
+          />
         </div>
       </div>
       <Footer />
