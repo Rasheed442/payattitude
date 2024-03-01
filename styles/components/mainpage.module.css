@@ -112,7 +112,15 @@
                 }
 }
 /* for bigger screens */
-
+@media screen and (min-width:2335px) {
+    .carousel1{
+        height: 100%;
+    }
+    .carousel1 img{
+        height: 100%;
+    }
+    
+}
 @media screen and (max-width:1258px) {
 
     @media screen and (max-width:985px) {
