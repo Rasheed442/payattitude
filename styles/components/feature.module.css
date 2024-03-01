@@ -95,6 +95,56 @@ align-items: center;
 }
 
 
+@media screen and (min-width:2061px) {
+    .contentslides h2 {
+            line-height: 60px;
+            font-size: 57px;
+        }
+    
+        .contentslides p {
+            font-size: 35px;
+            color: #344054;
+            font-weight: 400;
+            line-height: 46px;
+        }
+        .contentslides{
+            
+        }
+    
+     
+    
+        .contentslides span {
+            color: #F58220;
+            line-height: 50px;
+            font-size: 35px;
+            font-weight: 400;
+        }
+    .features span{
+        font-size: 38px;
+    }
+    .features p{
+        font-size:38px ;
+    }
+    .features{
+        gap: 30px;
+    }
+        .lottie {
+            
+            /* width: 378px; */
+            gap: 20px;
+        }
+    
+        .lottie p {
+            font-size: 34px;
+            line-height: 38px;
+        }
+    
+        .lottie span {
+            font-size: 25px;
+            line-height: 36px;
+            font-weight: 400;
+        }
+}
 @media screen and (max-width:1108px) {
     .grid{
             grid-template-columns: repeat(2, 1fr);

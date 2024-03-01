@@ -51,6 +51,21 @@
 }
 
 
+
+
+@media screen and (min-width:2061px) {
+    .label h2{
+        font-size: 30px;
+    }
+    .links span{
+        font-size: 25px;
+    }
+}
+
+
+
+
+
 @media screen and (max-width:658px) {
     .container{
         gap: 80px;

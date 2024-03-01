@@ -1,67 +1,117 @@
-.carousel1{
-    display: flex;
-    justify-content: space-between;
-    padding: 49px 80px 20px 70px;
-    align-items: center;
-    background-color: white;
-    height: 100%;
-    overflow: hidden;
-        
-}
-.carousel1 img{
+    
+    .carousel1 {
+            display: flex;
+            justify-content: space-between;
+            padding: 49px 80px 20px 70px;
+            align-items: center;
+            background-color: white;
+            height: 100%;
+            overflow: hidden;
+    
+        }
+    
+        .carousel1 img {
+    
+            width: 45%;
+        }
+    
+        .content {
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px 0px 0px 0px;
+        }
+    
+        .content h2 {
+            font-size: 60px;
+            font-weight: 500;
+            /* line-height: 95px; */
+        }
+    
+        .content span {
+            color: #475467;
+            font-size: 20px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+    
+        .stores {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+        }
+    
+        .stores img {
+            width: 160px;
+        }
+    
+        .group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 20px;
+        }
+    
+        .downloads img {
+            width: 162px;
+        }
+    
+        .downloads {
+            display: flex;
+            align-items: flex-end;
+            align-items: center;
+            gap: 10px;
+        }
+    
+        .downloads span {
+            color: #475467;
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 28px;
+        }
+    .imp input[type="file"] {
+            /* Hide the default button */
+            display: none;
+        }
+                  .custombutton {
+                      padding: 10px 20px;
+                      background-color: #007bff;
+                      color: #fff;
+                      border: none;
+                      border-radius: 4px;
+                      cursor: pointer;
+                  }
+                  
 
-    width: 45%;
-}
 
-.content{
-    overflow: hidden;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    padding: 30px 0px 0px 0px;
-}
-.content h2{
-    font-size: 60px;
-    font-weight: 500;
-    /* line-height: 95px; */
-}
-.content span{
-    color: #475467;
-    font-size: 20px;
-    line-height: 32px;
-    font-weight: 400;
-}
-.stores{
-    display: flex;
-    align-items: center;
-    gap: 13px;
-}
-.stores img{
-    width: 160px;
-}
-.group{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
-}
-.downloads img{
-    width: 162px;
-}
-.downloads{
-    display: flex;
-    align-items: flex-end;
-    align-items: center;
-    gap: 10px;
-}
-.downloads span{
-    color: #475467;
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 28px;
-}
+/* for bigger screens */
+@media screen and (min-width:2061px) {
+        .carousel1{
+                    padding: 120px 120px 20px 120px;
+        }
 
+    
+                .content h2 {
+                    font-size: 70px;
+                    font-weight: 500;
+                    line-height: 90px;
+                }
+                .content span{
+                    font-size: 40px;
+                    line-height: 50px;
+                    font-weight: 100;
+                }
+                .stores img{
+                    width: 100%;
+                }
+                .group {
+                    padding-top: 70px;
+                    gap: 30px;
+                }
+}
+/* for bigger screens */
 
 @media screen and (max-width:1258px) {
 

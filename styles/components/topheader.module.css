@@ -30,7 +30,6 @@
  .btn button{
     background-color: #F58220;
     border: none;
-    width: 142px;
     padding: 16px
         20px
         16px
@@ -72,6 +71,24 @@
          display: none;
       }
 } */
+
+
+
+@media screen and (min-width:2061px) {
+   .navlink span{
+      font-size: 32px;
+   }
+   .btn button{
+      font-size: 30px;
+   }
+   .container{
+         padding: 70px 120px 20px 120px;
+   }
+   .navlink{
+      gap: 40px;
+   }
+   
+}
  @media screen and (max-width:952px) {
    .container{
          padding: 20px;

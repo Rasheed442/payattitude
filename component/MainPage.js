@@ -127,10 +127,7 @@ function MainPage() {
         <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
-              <h2>
-                Get on the smart side of <br />
-                transacting with Payattitude
-              </h2>
+              <h2>Get on the smart side of transacting with Payattitude</h2>
               <span>
                 One secure platform to pay, get paid and manage
                 <br /> your finance better and with ease
@@ -165,13 +162,10 @@ function MainPage() {
         <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
-              <h2>
-                Withdraw cash with just
-                <br /> your phone number
-              </h2>
+              <h2>Withdraw cash with just your phone number</h2>
               <span>
-                One secure platform to pay, get paid and manage
-                <br /> your finance better and with ease
+                One secure platform to pay, get paid and manage your finance
+                better and with ease
               </span>
 
               <div className={style.group}>
@@ -201,95 +195,6 @@ function MainPage() {
           </div>
         </SwiperSlide>
       </Swiper>
-
-      {/* second page carousel */}
-      {/* <AnimatePresence>
-        {backgroundIndex == 1 && (
-          <motion.div
-            initial={{ opacity: 0.5 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1, ease: "linear" }}
-            className={style.carousel1}
-          >
-            <div className={style.content}>
-              <h2>
-                Paying bills and shop with
-                <br /> just your phone number
-              </h2>
-              <span>
-                One secure platform to pay, get paid and manage
-                <br /> your finance better and with ease
-              </span>
-
-              <div className={style.group}>
-                <div className={style.stores}>
-                  <Image src={googleplaystore} />
-                  <Image src={appstore} />
-                </div>
-                <div className={style.downloads}>
-                  <Image src={group} priority />
-                  <span>Over 1k+ downloads</span>
-                </div>
-              </div>
-            </div>
-            <Image src={imagecaro2} priority />
-          </motion.div>
-        )}
-      </AnimatePresence> */}
-      {/* second page carousel */}
-      {/* {backgroundIndex == 2 && (
-        <div className={style.carousel1}>
-          <div className={style.content}>
-            <h2>
-              Get on the smart side of <br />
-              transacting with Payattitude
-            </h2>
-            <span>
-              One secure platform to pay, get paid and manage
-              <br /> your finance better and with ease
-            </span>
-
-            <div className={style.group}>
-              <div className={style.stores}>
-                <Image src={googleplaystore} />
-                <Image src={appstore} />
-              </div>
-              <div className={style.downloads}>
-                <Image src={group} priority />
-                <span>Over 1k+ downloads</span>
-              </div>
-            </div>
-          </div>
-          <Image src={imagecaro1} priority />
-        </div>
-      )} */}
-      {/* second page carousel */}
-      {/* {backgroundIndex == 3 && (
-        <div className={style.carousel1}>
-          <div className={style.content}>
-            <h2>
-              Withdraw cash with just
-              <br /> your phone number
-            </h2>
-            <span>
-              One secure platform to pay, get paid and manage
-              <br /> your finance better and with ease
-            </span>
-
-            <div className={style.group}>
-              <div className={style.stores}>
-                <Image src={googleplaystore} />
-                <Image src={appstore} />
-              </div>
-              <div className={style.downloads}>
-                <Image src={group} priority />
-                <span>Over 1k+ downloads</span>
-              </div>
-            </div>
-          </div>
-          <Image src={imagecaro3} priority />
-        </div>
-      )} */}
     </>
   );
 }

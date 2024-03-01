@@ -128,7 +128,43 @@
     width: 180px;
 }
 
-
+@media screen and (min-width:2061px) {
+    .top span{
+        font-size: 30px;
+    }
+    .top h2{
+        font-size: 45px;
+    }
+    .top p{
+        font-size: 30px;
+    }
+    .lottie h2{
+        font-size: 34px;
+    }
+    .lottie p{
+        font-size: 26px;
+        line-height: 40px;
+    }
+    .refers h2{
+        line-height: 80px;
+        font-size: 60px;
+    }
+    .caroicon img{
+      width: 120px;
+    } 
+    .caroicon p{
+        font-size: 48px;
+        line-height: 60px;
+    }
+    .caroicon span{
+        font-size: 38px;
+        line-height: 60px;
+    }
+    .people p{
+        font-size: 52px;
+        line-height: 70px;
+    }
+}
 @media screen and (max-width:1149px) {
 .join {
        gap: 30px;
