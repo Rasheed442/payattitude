@@ -14,7 +14,7 @@ import flow2 from "./Flow2.json";
 import flow3 from "./Flow3.json";
 import flow5 from "./Flow5.json";
 import prodbg from "./prodbg.svg";
-
+import agentt from "./agent.svg";
 import bord from "./bord.svg";
 import bord1 from "./bord1.svg";
 import bord2 from "./bord2.svg";
@@ -26,8 +26,15 @@ import caro2 from "./caro2.svg";
 import caro3 from "./caro3.svg";
 import building from "./building.svg";
 import gril from "./gril.svg";
+import bcn from "./bcn.svg";
+import companyy from "./company.svg";
+import prod from "./prod.svg";
 export {
   gril,
+  prod,
+  companyy,
+  agentt,
+  bcn,
   building,
   caro1,
   caro2,

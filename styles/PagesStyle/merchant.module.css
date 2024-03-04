@@ -1,12 +1,42 @@
 .prodbg {
-    background-image: url("../../public/IMAGES/bcm.svg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 49vh;
+    display: flex;
+    padding: 60px;
+    justify-content: space-around;
 }
 
+.becomeagent h2 {
+    color: #1D2939;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 94px;
+
+}
+
+.becomeagent {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    padding-right: 60px;
+}
+
+.becomeagent span {
+    color: #475467;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.becomeagent button{
+    background-color: #F58220;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 15px;
+    width: 40%;
+    line-height: 28px;
+    font-weight: 500;
+}
 .top {
     padding: 28px 0px 0px 0px;
 }
@@ -232,6 +262,20 @@
 
 
   @media screen and (min-width:2061px) {
+    .becomeagent span{
+            font-size: 35px;
+            width: 70%;
+        }
+        .becomeagent h2{
+            font-size: 70px;
+        }
+        .becomeagent{
+            gap: 50px;
+        }
+        .becomeagent button{
+            font-size: 35px;
+            padding: 30px;
+        }
     .centerdiv{
         padding: 80px 0px 80px 0px;
     }
@@ -307,14 +351,29 @@
                             height: 20vh;
                         }
   }
-
+  @media screen and (max-width:1338px) {
+      .prodbg {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 60px;
+      }
+  }
+        @media screen and (max-width:806px) {
+            .agentt img {
+                width: 70%;
+                height: 70%;
+            }
+    
+            .agentt {
+                display: flex;
+                justify-content: center;
+            }
+        }
 
 
   @media screen and (max-width:1081px) {
-      .prodbg {
-          width: 90%;
-          height: 40vh;
-      }
+
 
       .top {
           display: flex;
@@ -325,15 +384,15 @@
   }
 
         @media screen and (max-width:730px) {
-            .prodbg {
-                width: 100%;
-                height: 20vh;
-            }
+       
     
             .table {
                 width: 150vw;
                 overflow: hidden;
                 overflow: scroll;
+            }
+            .becomeagent button{
+                width: 100%;
             }
     
             .tablecontent {

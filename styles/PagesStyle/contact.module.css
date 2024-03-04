@@ -1,10 +1,49 @@
 .prodbg {
-    background-image: url("../../public/ICON/contactus.svg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 49vh;
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.becomeagent h2 {
+    color: #1D2939;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+
+}
+
+.becomeagent {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    padding-right: 60px;
+}
+.becomeagent p{
+    color: #F58220;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.becomeagent span {
+    color: #475467;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.becomeagent button {
+    background-color: #F58220;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 15px;
+    width: 40%;
+    line-height: 28px;
+    font-weight: 500;
 }
 
 .top {
@@ -218,6 +257,10 @@
     font-weight: 500;
 }
 @media screen and (min-width:2061px) {
+    .becomeagent p{
+        font-size: 35px;
+    }
+
     .main{
         gap: 20px;
     }
@@ -292,6 +335,14 @@
     }
 }
   @media screen and (max-width:1338px) {
+  .prodbg{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+  }
+}
+  @media screen and (max-width:1206px) {
  .contactus{
     gap: 30px;
  }
@@ -299,6 +350,13 @@
    .name{
     flex-direction: column;
    }
+   .prodbg{
+    justify-content: center;
+   }
+   /* .agentt img{
+    width: 80%;
+    height: 80%;
+   } */
    .namelabel input{
     width: 100%;
    }
@@ -312,8 +370,8 @@
   }
   @media screen and (max-width:1081px) {
       .prodbg {
-          width: 90%;
-          height: 40vh;
+          /* width: 90%;
+          height: 40vh; */
       }
       .top {
           display: flex;
@@ -330,11 +388,21 @@
         gap: 30px;
     }
   }
+  @media screen and (max-width:806px) {
+    .agentt img{
+        width: 70%;
+        height: 70%;
+    }
+    .agentt{
+        display: flex;
+        justify-content: center;
+    }
+  }
          @media screen and (max-width:730px) {
-             .prodbg {
+             /* .prodbg {
                  width: 100%;
                  height: 20vh;
-             }
+             } */
     
       
              .secfoot h2 {

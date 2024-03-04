@@ -4,7 +4,7 @@ import style from "../styles/PagesStyle/contact.module.css";
 import { flow1, flow2, flow3 } from "@/public/IMAGES";
 import Lottie from "lottie-react";
 import Image from "next/image";
-import { doccontact } from "@/public/ICON";
+import { contacts, doccontact } from "@/public/ICON";
 import Footer from "@/component/Footer";
 function contact() {
   const [firstname, setFirstName] = useState();
@@ -49,7 +49,16 @@ function contact() {
     <div>
       <TopHeader />
       <div className={style.top}>
-        <div className={style.prodbg}></div>
+        <div className={style.prodbg}>
+          <div className={style.becomeagent}>
+            <p>Contact Us</p>
+            <h2>Let Us hear from you</h2>
+            <span>We are here to fully help you</span>
+          </div>
+          <div className={style.agentt}>
+            <Image src={contacts} priority />
+          </div>
+        </div>
       </div>
 
       <div className={style.center}>

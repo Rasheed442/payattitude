@@ -2,7 +2,15 @@ import React, { useState } from "react";
 import style from "../styles/PagesStyle/company.module.css";
 import TopHeader from "@/component/TopHeader";
 import Image from "next/image";
-import { bord, bord1, bord2, bord3, bord4, bord5 } from "@/public/IMAGES";
+import {
+  bord,
+  bord1,
+  bord2,
+  bord3,
+  bord4,
+  bord5,
+  companyy,
+} from "@/public/IMAGES";
 import { appstore, googleplaystore } from "@/public/ICON";
 import Footer from "@/component/Footer";
 import Francis from "@/bod/Francis";
@@ -33,7 +41,17 @@ function company() {
       {kelvins && <Kelvin close={setKelvins} />}
       <TopHeader />
       <div className={style.top}>
-        <div className={style.prodbg}></div>
+        <div className={style.prodbg}>
+          <div className={style.becomeagent}>
+            <h2>We are committed to making payment easier</h2>
+            <span>
+              Enhancing commerce and lifestyle through innovative solutions
+            </span>
+          </div>
+          <div className={style.agentt}>
+            <Image src={companyy} />
+          </div>
+        </div>
         <div className={style.about}>
           <span>Payattitude</span> is a Payment Scheme with innovative
           technologies for payments and financial transactions with focus on

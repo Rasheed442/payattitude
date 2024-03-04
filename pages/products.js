@@ -10,6 +10,7 @@ import {
   flow2,
   flow3,
   flow5,
+  prod,
 } from "@/public/IMAGES";
 import Image from "next/image";
 import { appstore, googleplaystore } from "@/public/ICON";
@@ -44,7 +45,15 @@ function products() {
     <div>
       <TopHeader />
       <div className={style.top}>
-        <div className={style.prodbg}></div>
+        <div className={style.prodbg}>
+          <div className={style.becomeagent}>
+            <h2>Building an innovative solution for the unbanked</h2>
+            <span>Explore all our products</span>
+          </div>
+          <div className={style.agentt}>
+            <Image src={prod} priority />
+          </div>
+        </div>
         <div className={style.grid}>
           {details.map((d) => {
             return (

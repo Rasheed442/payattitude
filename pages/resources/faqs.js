@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import style from "../../styles/PagesStyle/faq.module.css";
 import { AiOutlinePlus, AiOutlineSearch } from "react-icons/ai";
 import Image from "next/image";
-import { group2 } from "@/public/ICON";
+import { group2, resources } from "@/public/ICON";
 import Footer from "@/component/Footer";
 import { faqQuestion } from "@/component/faqQuestion";
 import Aos from "aos";
@@ -19,7 +19,15 @@ function faqs() {
     <div>
       <TopHeader />
       <div className={style.top}>
-        <div className={style.prodbg}></div>
+        <div className={style.prodbg}>
+          <div className={style.becomeagent}>
+            <h2>Everything you need to know about payattitude</h2>
+            <span>For help, clarity and guidance</span>
+          </div>
+          <div className={style.agentt}>
+            <Image src={resources} />
+          </div>
+        </div>
       </div>
       <div className={style.frq}>
         <h2>Frequently asked questions</h2>

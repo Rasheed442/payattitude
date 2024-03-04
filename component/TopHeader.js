@@ -174,7 +174,7 @@ function TopHeader() {
                   <p>FAQs</p>
                 </Link>
                 <Link href="/resources/userguide">
-                  <p>User Guide</p>
+                  {/* <p>User Guide</p> */}
                 </Link>
               </div>
             )}

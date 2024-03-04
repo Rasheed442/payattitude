@@ -2,7 +2,7 @@ import TopHeader from "@/component/TopHeader";
 import React from "react";
 import style from "../../styles/PagesStyle/agent.module.css";
 import Image from "next/image";
-import { building, gril } from "@/public/IMAGES";
+import { agentt, building, gril } from "@/public/IMAGES";
 import { appstore, check, googleplaystore } from "@/public/ICON";
 import {
   AiOutlineArrowRight,
@@ -37,11 +37,57 @@ function agent() {
       title: "Easy on-boarding process",
     },
   ];
+  const about2 = [
+    {
+      icon: check,
+      title:
+        "Open PlayStore for Android or AppStore for iOS and search for “Payattitude Digital”",
+    },
+    {
+      icon: check,
+      title:
+        "Click on install and wait for the app to download and complete installation.",
+    },
+    {
+      icon: check,
+      title:
+        "Click on “Allow” If the question “Allow Payattitude to access this device” pops up.",
+    },
+    {
+      icon: check,
+      title: "Click on open to access the app’s login page.",
+    },
+    {
+      icon: check,
+      title: "Click on new user and follow the steps to link your account.",
+    },
+    {
+      icon: check,
+      title: "Log into the app and select Payattitude Agent.",
+    },
+    {
+      icon: check,
+      title:
+        "select “register as an agent” and click ok to complete registration.",
+    },
+  ];
   return (
     <div>
       <TopHeader />
       <div className={style.top}>
-        <div className={style.prodbg}></div>
+        <div className={style.prodbg}>
+          <div className={style.becomeagent}>
+            <h2>Become an Agent</h2>
+            <span>
+              Payattitude is a simple user friendly and cost effective way of
+              providing secured banking services such as Cash deposit and Cash
+              withdrawal to groups of people in a community.
+            </span>
+          </div>
+          <div className={style.agentt}>
+            <Image src={agentt} />
+          </div>
+        </div>
         <div className={style.centerdiv}>
           <h2>About Agency Banking</h2>
           <p>
@@ -76,7 +122,7 @@ function agent() {
               follow the process below.
             </h2>
           </div>
-          {about.map((a) => {
+          {about2.map((a) => {
             return (
               <div className={style.liam}>
                 <Image src={a.icon} />

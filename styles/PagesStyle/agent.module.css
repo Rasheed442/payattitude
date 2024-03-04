@@ -1,11 +1,30 @@
 .prodbg {
-    background-image: url("../../public/IMAGES/agent.svg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 49vh;
+  display: flex;
+  padding: 60px;
+  justify-content: space-around;
 }
+.becomeagent h2{
+    color: #1D2939;
+    font-size: 62px;
+    font-weight: 500;
+    line-height: 94px;
+
+}
+.becomeagent{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 100%;
+    padding-top: 50px;
+    padding-right: 60px;
+}
+.becomeagent span{
+    color: #475467;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
 
 .top {
     padding: 28px 0px 0px 0px;
@@ -225,6 +244,12 @@
   }
 
   @media screen and (min-width:2061px) {
+        .becomeagent span {
+                font-size: 35px;
+            }
+            .becomeagent h2{
+                font-size: 80px;
+            }
                     .centerdiv h2 {
                             font-size: 70px;
                             font-weight: 500;
@@ -297,8 +322,8 @@
 
   @media screen and (max-width:1081px) {
       .prodbg {
-          width: 90%;
-          height: 40vh;
+          /* width: 90%;
+          height: 40vh; */
       }
 
       .top {
@@ -308,6 +333,25 @@
           align-items: center;
       }
   }
+        @media screen and (max-width:1338px) {
+            .prodbg {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 60px;
+            }
+        }
+                  @media screen and (max-width:806px) {
+                      .agentt img {
+                          width: 70%;
+                          height: 70%;
+                      }
+        
+                      .agentt {
+                          display: flex;
+                          justify-content: center;
+                      }
+                  }
   @media screen and (max-width:1065px) {
     .building{
         flex-direction: column;
@@ -317,10 +361,7 @@
     }
   }
   @media screen and (max-width:730px) {
-      .prodbg {
-          width: 100%;
-          height: 20vh;
-      }
+    
                 .table {
                     width: 150vw;
                     overflow: hidden;

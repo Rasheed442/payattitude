@@ -1,7 +1,7 @@
 import React from "react";
 import style from "../../styles/PagesStyle/merchant.module.css";
 import TopHeader from "@/component/TopHeader";
-import { gril, payattitudemobile } from "@/public/IMAGES";
+import { bcn, gril, payattitudemobile } from "@/public/IMAGES";
 import Image from "next/image";
 import { appstore, check, googleplaystore, payattitude } from "@/public/ICON";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
@@ -94,7 +94,20 @@ function merchant() {
     <div>
       <TopHeader />
       <div className={style.top}>
-        <div className={style.prodbg}></div>
+        <div className={style.prodbg}>
+          <div className={style.becomeagent}>
+            <h2>Become an Merchant</h2>
+            <span>
+              With Payattitude digital, merchants have multiple options of
+              accepting payment from their customers but all with just phone
+              number
+            </span>
+            <button>Become a merchant</button>
+          </div>
+          <div className={style.agentt}>
+            <Image src={bcn} />
+          </div>
+        </div>
         <div className={style.centerdiv}>
           <h2>Use your mobile Phone as POS</h2>
 

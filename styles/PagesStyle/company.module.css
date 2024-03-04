@@ -1,12 +1,44 @@
 .prodbg {
-    background-image: url("../../public/IMAGES/aboutbg.svg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 49vh;
+    display: flex;
+    padding: 60px;
+        justify-content: space-around;
 }
 
+.becomeagent h2 {
+    color: #1D2939;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 74px;
+
+}
+
+.becomeagent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+        padding-top: 50px;
+    padding-right: 60px;
+}
+
+.becomeagent span {
+    color: #475467;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.becomeagent button {
+    background-color: #F58220;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 15px;
+    width: 40%;
+    line-height: 28px;
+    font-weight: 500;
+}
 .top {
     padding: 28px 0px 0px 0px;
 }
@@ -179,13 +211,36 @@
         font-size: 45px;
         line-height: 80px;
     }
+                .becomeagent span {
+                    font-size: 35px;
+                }
+               
 }
+  @media screen and (max-width:1338px) {
+      .prodbg {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 60px;
+      }
+  }
+        @media screen and (max-width:806px) {
+            .agentt img {
+                width: 70%;
+                height: 70%;
+            }
+    
+            .agentt {
+                display: flex;
+                justify-content: center;
+            }
+        }
 
   @media screen and (max-width:1081px) {
-      .prodbg {
+      /* .prodbg {
           width: 90%;
           height: 40vh;
-      }
+      } */
 
       .top {
           display: flex;
@@ -195,10 +250,10 @@
       }
   }
         @media screen and (max-width:730px) {
-            .prodbg {
+            /* .prodbg {
                 width: 100%;
                 height: 20vh;
-            }
+            } */
             .secfoot h2{
                 text-align: center;
             }

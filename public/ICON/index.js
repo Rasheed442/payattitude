@@ -18,10 +18,14 @@ import group2 from "./group2.svg";
 import userguide from "./userguide.svg";
 import doccontact from "./doccontact.svg";
 import check from "./check.svg";
+import resources from "./resource.svg";
+import contacts from "./contact.svg";
 export {
+  contacts,
   payattitude,
   googleplaystore,
   appstore,
+  resources,
   group,
   eclipse,
   phonepos,

@@ -1,10 +1,38 @@
-.prodbg{
-    background-image: url("../../public/IMAGES/prodbg.svg");
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 49vh;
+.prodbg {
+    display: flex;
+    padding: 40px;
+    justify-content: space-around;
+}
+
+.becomeagent h2 {
+    color: #1D2939;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 70px;
+
+}
+
+.becomeagent {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100%;
+    padding-right: 60px;
+}
+
+.becomeagent p {
+    color: #F58220;
+    line-height: 70px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.becomeagent span {
+    color: #475467;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 300;
 }
 .top{
     padding: 28px 0px 0px 0px;
@@ -106,6 +134,14 @@
 }
 
 @media screen and (min-width:2061px) {
+    .becomeagent span {
+            font-size: 35px;
+        }
+        .becomeagent h2{
+            font-size: 85px;
+            width: 50%;
+            line-height: 100px;
+        }
     .content h3{
         font-size: 35px;
     }
@@ -143,10 +179,7 @@
   }
 }
 @media screen and (max-width:1081px) {
-    .prodbg{
-        width: 90%;
-        height: 40vh;
-    }
+
     .top{
         display: flex;
         flex-direction: column;
@@ -171,10 +204,7 @@
           }
 }
 @media screen and (max-width:730px) {
-    .prodbg{
-        width: 100%;
-        height: 20vh;
-    }
+
 }
 @media screen and (max-width:857px) {
    /* .caro img{
@@ -191,10 +221,7 @@
 
 }
 @media screen and (max-width:730px) {
-    .prodbg{
-        width: 100%;
-        height: 20vh;
-    }
+
 }
 @media screen and (max-width:679px) {
     .caro{
@@ -212,6 +239,17 @@
             width: 100%;
           }
 }
+  @media screen and (max-width:806px) {
+      .agentt img {
+          width: 70%;
+          height: 70%;
+      }
+
+      .agentt {
+          display: flex;
+          justify-content: center;
+      }
+  }
 @media screen and (max-width:457px) {
     .caro{
         display: flex;
