@@ -55,7 +55,10 @@ function MainPage() {
         <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
-              <h2>Manage all your bank account from one secure app</h2>
+              <h2>
+                Unleash the Power of Convenience: Manage all your bank account
+                from one secure app
+              </h2>
               <span>
                 One secure platform to pay, get paid and manage
                 <br /> your finance better and with ease
@@ -92,7 +95,9 @@ function MainPage() {
         <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
-              <h2>Paying bills and shop with just your phone number</h2>
+              <h2>
+                Paying bills, shop and transact with just your phone number
+              </h2>
               <span>
                 One secure platform to pay, get paid and manage
                 <br /> your finance better and with ease
@@ -127,7 +132,10 @@ function MainPage() {
         <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
-              <h2>Get on the smart side of transacting with Payattitude</h2>
+              <h2>
+                Get on the smart side,Transact with only your phone number on
+                payattitude
+              </h2>
               <span>
                 One secure platform to pay, get paid and manage
                 <br /> your finance better and with ease

@@ -29,8 +29,21 @@ function Footer() {
                   "https://ph.linkedin.com/company/getpayattitude")
               }
             />
-            {/* <Image src={insta} priority />
-            <Image src={facebook} priority /> */}
+            <Image
+              src={insta}
+              priority
+              onClick={() =>
+                (window.location =
+                  "https://www.instagram.com/getpayattitude/?hl=en")
+              }
+            />
+            <Image
+              src={facebook}
+              priority
+              onClick={() =>
+                (window.location = "https://www.facebook.com/getpayattitude/")
+              }
+            />
           </div>
         </div>
 

@@ -8,7 +8,9 @@ import Footer from "@/component/Footer";
 import { faqQuestion } from "@/component/faqQuestion";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { useRouter } from "next/router";
 function faqs() {
+  const router = useRouter();
   const [answer, setAnswer] = useState(null);
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -50,7 +52,12 @@ function faqs() {
           Can’t find the answer you’re looking for? Please chat to our friendly
           team.
         </p>
-        <button>Get in touch</button>
+        <button
+          style={{ cursor: "pointer" }}
+          onClick={() => router.push("/contact")}
+        >
+          Get in touch
+        </button>
       </div>
       <Footer />
     </div>

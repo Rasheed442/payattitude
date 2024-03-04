@@ -122,6 +122,64 @@
     text-align: center;
 }
 
+@media screen and (min-width:2061px) {
+    .frq h2{
+        font-size: 40px;
+    }
+    .frq{
+        gap: 40px;
+    }
+    .frq span{
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .semifooter span{
+        font-size: 35px;
+    }
+    .semifooter{
+        gap: 50px;
+    }
+    .semifooter button{
+        font-size: 30px;
+        padding: 20px;
+    }
+    .semifooter p{
+        font-size: 35px;
+    }
+        .search {
+            border: 1px solid gainsboro;
+            display: flex;
+            gap: 10px;
+            border-radius: 5px;
+            width: 20vw;
+            align-items: center;
+        }
+        .content p{
+            font-size: 40px;
+        }
+        .index{
+            gap: 40px;
+        }
+        .index span{
+            font-size: 35px;
+            line-height: 45px;
+        }
+    
+        .search input {
+            border: none;
+            width: 100%;
+            outline: none;
+            padding: 10px;
+                        font-size: 40px;
+        }
+    
+        .search ::placeholder {
+            color: #47546780;
+            font-weight: 300;
+            line-height: 24px;
+            font-size: 40px;
+        }
+}
   @media screen and (max-width:1081px) {
       .prodbg {
           width: 90%;

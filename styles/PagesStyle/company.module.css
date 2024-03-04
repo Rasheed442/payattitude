@@ -173,6 +173,14 @@
     width: 170px;
 }
 
+@media screen and (min-width:2061px) {
+
+    .about {
+        font-size: 45px;
+        line-height: 80px;
+    }
+}
+
   @media screen and (max-width:1081px) {
       .prodbg {
           width: 90%;

@@ -41,12 +41,11 @@ function Why() {
         <h2>
           Building an innovative
           <br />
-          solution for the unbanked
+          solution for everyone
         </h2>
         <p>
-          We provide a seamless solution that allows businesses to effortlessly
-          <br />
-          accept and send funds through your mobile phone number
+          We shouldn't just target the unbanked as the applications
+          <br /> USP is seamlessness and applies to everyone
         </p>
       </div>
       <div className={style.purpose}>

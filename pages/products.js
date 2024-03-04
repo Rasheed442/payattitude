@@ -109,7 +109,9 @@ function products() {
               </svg>
             </div>
           </div>
-          <Image src={caro1} priority data-aos="slide-left" />
+          <div className={style.caroimg}>
+            <Image src={caro1} priority data-aos="slide-left" />
+          </div>
         </div>
       )}
       {solution && (
@@ -167,7 +169,9 @@ function products() {
               </svg>
             </div>
           </div>
-          <Image src={caro2} priority data-aos="slide-left" />
+          <div className={style.caroimg}>
+            <Image src={caro2} priority data-aos="slide-left" />
+          </div>
         </div>
       )}
       {corporate && (
@@ -218,7 +222,9 @@ function products() {
               </svg>
             </div>
           </div>
-          <Image src={caro3} priority data-aos="slide-left" />
+          <div className={style.caroimg}>
+            <Image src={caro3} priority data-aos="slide-left" />
+          </div>
         </div>
       )}
 

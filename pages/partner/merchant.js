@@ -96,7 +96,8 @@ function merchant() {
       <div className={style.top}>
         <div className={style.prodbg}></div>
         <div className={style.centerdiv}>
-          <h2>Mobile Phone as POS</h2>
+          <h2>Use your mobile Phone as POS</h2>
+
           <p>
             Businesses that cannot afford to incur additional costs of POS have
             the opportunity to use their mobile

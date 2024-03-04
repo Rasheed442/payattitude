@@ -89,13 +89,15 @@
 }
 .caro{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     padding: 100px 120px 100px 120px;
+    align-items: center;
+    overflow: hidden;
     gap: 170px;
 }
-.caro img{
-    width: 60%;
+.caroimg img{
+    width: 80%;
+    height: 80%;
 }
 .btn{
     display: flex;
@@ -103,18 +105,38 @@
     gap: 20px;
 }
 
+@media screen and (min-width:2061px) {
+    .content h3{
+        font-size: 35px;
+    }
+    .content p{
+        font-size: 27px;
+    }
+    .caro{
+        justify-content: center;
+            padding: 100px 0px 100px 0px;
+    }
+    .corporate h2{
+        font-size: 65px;
+    }
+}
+@media screen and (min-width:1400px) {
+    .caroimg img{
+        width: 70%;
+        height: 70%;
+    }
+
+}
 
 @media screen and (max-width:1149px) {
-  .caro img{
-    width: 40%;
-  }
+
   .corporate h2{
     font-size: 40px;
+    line-height: 50px;
   }
   .caro{
-        width: 100vw;
         overflow: hidden;
-            padding: 0px 120px 10px 120px;
+            padding: 50px 120px 50px 120px;
   }
   .grid{
             padding: 120px 120px 0px 120px;
@@ -136,6 +158,17 @@
   .grid{
             padding: 40px;
   }
+          .caroimg img {
+              width: 100%;
+              height: 100%;
+          }
+          .corporate h2{
+            font-size: 30px;
+            line-height: 50px;
+          }
+          .corporate{
+            gap: 20px;
+          }
 }
 @media screen and (max-width:730px) {
     .prodbg{
@@ -144,12 +177,15 @@
     }
 }
 @media screen and (max-width:857px) {
-   .caro img{
+   /* .caro img{
     width: 60%;
-   }
-   .caro{
+   } */
+   /* .caro{
     gap: 100px;
         padding: 50px 70px 0px 20px;
+   } */
+   .caro{
+    flex-direction: column;
    }
    
 

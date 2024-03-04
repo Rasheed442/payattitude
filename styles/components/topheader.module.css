@@ -87,6 +87,9 @@
    .navlink{
       gap: 40px;
    }
+   .submenu p{
+      font-size: 32px;
+   }
    
 }
  @media screen and (max-width:952px) {

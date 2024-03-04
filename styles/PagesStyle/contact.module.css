@@ -217,7 +217,80 @@
     font-size: 16px;
     font-weight: 500;
 }
-
+@media screen and (min-width:2061px) {
+    .main{
+        gap: 20px;
+    }
+    .namelabel label{
+        font-size: 30px;
+    }
+    .namelabel{
+        gap: 20px;
+    }
+    .namelabel ::placeholder{
+        font-size: 30px;
+    }
+    .namelabel input{
+        font-size: 30px;
+    }
+    .emailabel label{
+        font-size: 30px;
+    }
+    .emailabel{
+        gap: 20px;
+    }
+    .emailabel ::placeholder{
+        font-size: 30px;
+    }
+    .emailabel input{
+        font-size: 30px;
+    }
+    .msglabel label{
+        font-size: 30px;
+    }
+    .msglabel{
+        gap: 20px;
+    }
+    .msglabel ::placeholder{
+        font-size: 30px;
+    }
+    .msglabel input{
+        font-size: 30px;
+    }
+    .msglabel span{
+       font-size: 35px;
+    }
+    .contacheader{
+        gap: 10px;
+        padding-bottom: 20px;
+    }
+    .contacheader h2{
+       font-size: 35px;
+    }
+    .contacheader p{
+       font-size: 30px;
+    }
+    .center span{
+        font-size: 40px;
+    }
+    .center h2{
+        font-size: 40px;
+    }
+    .center p{
+        font-size: 35px;
+    }
+    .center{
+        gap: 30px;
+    }
+    .lots p{
+      font-size: 30px;
+    }
+    .lots span{
+        font-size: 30px;
+        letter-spacing: 2px;
+        line-height: 40px;
+    }
+}
   @media screen and (max-width:1338px) {
  .contactus{
     gap: 30px;

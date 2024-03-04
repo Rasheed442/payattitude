@@ -224,6 +224,76 @@
       letter-spacing: -2%;
   }
 
+  @media screen and (min-width:2061px) {
+                    .centerdiv h2 {
+                            font-size: 70px;
+                            font-weight: 500;
+                            line-height: 90px;
+                        }
+                        .centerdiv{
+                            gap: 40px;
+                                padding: 60px 60px 80px 60px;
+                        }
+                    
+                        .centerdiv p {
+                            font-size: 40px;
+                            line-height: 50px;
+                            font-weight: 100;
+                        }
+                        .row span{
+                            font-size: 35px;
+                        }
+                        .arrow button{
+                            font-size: 35px;
+                            height: 100%;
+                            width: 100%;
+                            padding: 10px;
+                            border-radius: 10px;
+                        }
+                        .arrow{
+                            gap: 30px;
+                        }
+                        .secfoot span{
+                            line-height: 30px;
+                            font-size: 34px;
+                        }
+                                                  .table th {
+                                                      font-weight: 400;
+                                                      font-size: 35px;
+                                                    line-height: 40px;
+                                                  }
+                        
+                   
+                        
+                                                  .table td {
+                                                      font-size: 30px;
+                                                   
+                                                      line-height: 50px;
+                                                      font-weight: 300;
+                                                  }
+                                                  .gridoutside {
+                                                     
+                                                      height: 20vh;
+                                                  }
+                                                .liam p {
+                                                    line-height: 48px;
+                                                    font-size: 40px;
+                                                }
+                                                .building{
+                                                    gap: 120px;
+                                                }
+                                                .agent{
+                                                    gap: 30px;
+                                                }
+                                                .agent span{
+                                                    font-size: 45px;
+                                                    line-height: 40px;
+                                                }
+                                                .agent h2{
+                                                    font-size: 45px;
+                                                    line-height: 45px;
+                                                }
+  }
 
   @media screen and (max-width:1081px) {
       .prodbg {

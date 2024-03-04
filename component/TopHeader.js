@@ -90,9 +90,9 @@ function TopHeader() {
               <Link href="/resources/faqs">
                 <p>FAQs</p>
               </Link>
-              <Link href="/resources/userguide">
+              {/* <Link href="/resources/userguide">
                 <p>User Guide</p>
-              </Link>
+              </Link> */}
             </div>
           )}
         </Link>
