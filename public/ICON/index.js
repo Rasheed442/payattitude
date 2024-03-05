@@ -20,7 +20,9 @@ import doccontact from "./doccontact.svg";
 import check from "./check.svg";
 import resources from "./resource.svg";
 import contacts from "./contact.svg";
+import X from "./X.svg";
 export {
+  X,
   contacts,
   payattitude,
   googleplaystore,

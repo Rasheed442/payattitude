@@ -2,7 +2,14 @@ import React from "react";
 import style from "../styles/components/footer.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import { facebook, insta, linkdln, payattitude, twitter } from "@/public/ICON";
+import {
+  X,
+  facebook,
+  insta,
+  linkdln,
+  payattitude,
+  twitter,
+} from "@/public/ICON";
 import { IoMdMail } from "react-icons/io";
 import { MdAddCall } from "react-icons/md";
 import { useRouter } from "next/router";
@@ -15,7 +22,7 @@ function Footer() {
           <Image src={payattitude} priority />
           <div className={style.socials}>
             <Image
-              src={twitter}
+              src={X}
               priority
               onClick={() =>
                 (window.location = "https://twitter.com/getpayattitude")
