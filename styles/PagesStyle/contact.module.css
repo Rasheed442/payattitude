@@ -423,6 +423,9 @@
                          .becomeagent{
                             gap: 0px;
                          }
+                                                   .prodbg {
+                                                       padding: 20px;
+                                                   }
             
                             .becomeagent h2 {
                                 line-height: 65px;

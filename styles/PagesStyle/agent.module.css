@@ -394,6 +394,9 @@
         display: flex;
         justify-content: center;
      }
+   .prodbg{
+    padding: 20px;
+   }
   }
   @media screen and (max-width:519px) {
   .building2img {
