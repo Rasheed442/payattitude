@@ -115,7 +115,7 @@ function Footer() {
       <hr />
       <br />
       <span style={{ color: "#98A2B3", fontSize: "13px" }}>
-        ©2023 Payattitude. All rights reserved.
+        ©{new Date().getFullYear()} Payattitude. All rights reserved.
       </span>
     </div>
   );
