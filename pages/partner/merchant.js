@@ -96,7 +96,7 @@ function merchant() {
       <div className={style.top}>
         <div className={style.prodbg}>
           <div className={style.becomeagent}>
-            <h2>Become an Merchant</h2>
+            <h2>Become a Merchant</h2>
             <span>
               With Payattitude digital, merchants have multiple options of
               accepting payment from their customers but all with just phone
