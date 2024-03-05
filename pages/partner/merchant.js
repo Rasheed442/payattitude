@@ -7,8 +7,10 @@ import { appstore, check, googleplaystore, payattitude } from "@/public/ICON";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Footer from "@/component/Footer";
 import ListOfMerchant, { merchants } from "@/component/ListOfMerchant";
+import { useRouter } from "next/router";
 function merchant() {
   <ListOfMerchant />;
+  const router = useRouter();
   const about = [
     {
       icon: check,
@@ -102,7 +104,12 @@ function merchant() {
               accepting payment from their customers but all with just phone
               number
             </span>
-            <button>Become a merchant</button>
+            <button
+              onClick={() => router.push("/contact")}
+              style={{ cursor: "pointer" }}
+            >
+              Become a merchant
+            </button>
           </div>
           <div className={style.agentt}>
             <Image src={bcn} />
