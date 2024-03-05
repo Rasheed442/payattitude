@@ -234,7 +234,13 @@
 @media screen and (max-width:679px) {
     .becomeagent h2{
         font-weight: 400;
+       font-size: 50px;
     }
+    .prodbg{
+        padding: 0px 20px 20px 20px;
+    }
+  
+ 
     .caro{
         display: flex;
         flex-direction: column;
