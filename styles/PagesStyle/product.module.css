@@ -232,6 +232,9 @@
 
 }
 @media screen and (max-width:679px) {
+    .becomeagent h2{
+        font-weight: 400;
+    }
     .caro{
         display: flex;
         flex-direction: column;
