@@ -85,7 +85,7 @@ function agent() {
             </span>
           </div>
           <div className={style.agentt}>
-            <Image src={agentt} />
+            <Image src={agentt} priority />
           </div>
         </div>
         <div className={style.centerdiv}>

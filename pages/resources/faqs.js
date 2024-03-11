@@ -33,7 +33,11 @@ function faqs() {
         <h2>Frequently asked questions</h2>
         <span>Everything you need to know about the payattitude</span>
         <div className={style.search}>
-          <AiOutlineSearch size={23} style={{ color: "#47546780" }} />
+          <AiOutlineSearch
+            size={23}
+            className={style.searchicon}
+            style={{ color: "#47546780" }}
+          />
           <input placeholder="Search" />
         </div>
       </div>

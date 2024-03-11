@@ -53,7 +53,7 @@ function contact() {
           <div className={style.becomeagent}>
             <p>Contact Us</p>
             <h2>Let Us hear from you</h2>
-            <span>We are here to fully help you</span>
+            <span>We are here to fully help you.</span>
           </div>
           <div className={style.agentt}>
             <Image src={contacts} priority />

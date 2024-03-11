@@ -44,30 +44,28 @@ function products() {
   return (
     <div>
       <TopHeader />
-      <div className={style.top}>
-        <div className={style.prodbg}>
-          <div className={style.becomeagent}>
-            <h2>Building an innovative solution for the unbanked</h2>
-            <span>Explore all our products</span>
-          </div>
-          <div className={style.agentt}>
-            <Image src={prod} priority />
-          </div>
+      <div className={style.prodbg}>
+        <div className={style.innovatives}>
+          <h2>Building an innovative solution for the unbanked</h2>
+          <span>Explore all our products</span>
         </div>
-        <div className={style.grid}>
-          {details.map((d) => {
-            return (
-              <div className={style.content}>
-                <Lottie
-                  animationData={d.icon}
-                  style={{ width: "170px", height: "70px" }}
-                />
-                <h3>{d.name}</h3>
-                <p>{d.desc}</p>
-              </div>
-            );
-          })}
+        <div className={style.agentt}>
+          <Image src={prod} priority />
         </div>
+      </div>
+      <div className={style.grid}>
+        {details.map((d) => {
+          return (
+            <div className={style.content}>
+              <Lottie
+                animationData={d.icon}
+                style={{ width: "170px", height: "70px" }}
+              />
+              <h3>{d.name}</h3>
+              <p>{d.desc}</p>
+            </div>
+          );
+        })}
       </div>
 
       {digital && (
@@ -118,7 +116,7 @@ function products() {
               </svg>
             </div>
           </div>
-          <div className={style.caroimg}>
+          <div className={style.slidersimg}>
             <Image src={caro1} priority data-aos="slide-left" />
           </div>
         </div>
@@ -178,7 +176,7 @@ function products() {
               </svg>
             </div>
           </div>
-          <div className={style.caroimg}>
+          <div className={style.slidersimg}>
             <Image src={caro2} priority data-aos="slide-left" />
           </div>
         </div>
@@ -231,7 +229,7 @@ function products() {
               </svg>
             </div>
           </div>
-          <div className={style.caroimg}>
+          <div className={style.slidersimg}>
             <Image src={caro3} priority data-aos="slide-left" />
           </div>
         </div>

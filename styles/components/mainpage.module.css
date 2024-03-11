@@ -90,9 +90,25 @@
 
 /* for bigger screens */
 @media screen and (min-width:2061px) {
-        .carousel1{
-                    padding: 120px 120px 20px 120px;
-        }
+  
+                        .carousel1 {
+                            padding: 120px 00px 20px 0px;
+                            display: flex;
+                            justify-content: space-around;
+                            align-items: flex-start;
+                            height: 100%;
+                            overflow: hidden;
+                        }
+            
+                        .content {
+                            width: 40%;
+                            height: 50vh;
+                        }
+            
+                        .carousel1 img {
+                            width: 30%;
+                            height: 30%;
+                        }
 
     
                 .content h2 {

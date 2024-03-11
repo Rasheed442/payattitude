@@ -262,20 +262,56 @@
 
 
   @media screen and (min-width:2061px) {
-    .becomeagent span{
-            font-size: 35px;
-            width: 70%;
-        }
-        .becomeagent h2{
-            font-size: 70px;
-        }
-        .becomeagent{
-            gap: 50px;
-        }
-        .becomeagent button{
-            font-size: 35px;
-            padding: 30px;
-        }
+.prodbg {
+        display: flex;
+        padding: 60px;
+                padding-top: 100px;
+                padding-bottom: 160px;
+        justify-content: space-around;
+    }
+
+    .becomeagent h2 {
+        color: #1D2939;
+        font-size: 55px;
+        font-weight: 500;
+        line-height: 94px;
+
+    }
+    .building2img img{
+        height: 100%;
+        width: 100%;
+    }
+    .building2img{
+        gap: 120px;
+    }
+
+    .becomeagent {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        width: 40%;
+        height: 100%;
+        padding-right: 60px;
+    }
+
+    .becomeagent span {
+        color: #475467;
+    line-height: 70px;
+        font-size: 38px;
+        font-weight: 300;
+    }
+
+    .becomeagent button {
+        background-color: #F58220;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 33px;
+        padding: 20px;
+        width: 40%;
+        line-height: 28px;
+        font-weight: 500;
+    }
     .centerdiv{
         padding: 80px 0px 80px 0px;
     }
@@ -348,7 +384,7 @@
             
                         .gridoutside {
             
-                            height: 20vh;
+                            height: 70vh;
                         }
   }
   @media screen and (max-width:1338px) {

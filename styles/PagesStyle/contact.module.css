@@ -260,12 +260,49 @@
     font-weight: 500;
 }
 @media screen and (min-width:2061px) {
-    .becomeagent p{
-        font-size: 35px;
+.prodbg {
+        display: flex;
+        padding: 40px;
+        justify-content: space-around;
+    }
+
+    .becomeagent h2 {
+        color: #1D2939;
+        font-size: 60px;
+        font-weight: 500;
+        line-height: 70px;
+
+    }
+
+    .becomeagent {
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+        padding-right: 60px;
+    }
+
+    .becomeagent p {
+        color: #F58220;
+        line-height: 70px;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .becomeagent span {
+        color: #475467;
+        line-height: 50px;
+        font-size: 40px;
+        font-weight: 300;
     }
 
     .main{
-        gap: 20px;
+        gap: 30px;
+    }
+    .main button{
+        padding: 20px;
+        font-size: 30px;
     }
     .namelabel label{
         font-size: 30px;
@@ -277,7 +314,8 @@
         font-size: 30px;
     }
     .namelabel input{
-        font-size: 16px;
+        padding: 15px;
+        font-size: 30px;
     }
     .emailabel label{
         font-size: 30px;
@@ -289,7 +327,8 @@
         font-size: 30px;
     }
     .emailabel input{
-        font-size: 16px;
+        padding: 15px;
+            font-size: 30px;
     }
     .msglabel label{
         font-size: 30px;

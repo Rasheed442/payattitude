@@ -155,6 +155,9 @@
 }
 
 @media screen and (min-width:2061px) {
+    .searchicon{
+        display: none;
+    }
         .becomeagent span {
                 font-size: 40px;
             }
