@@ -46,7 +46,7 @@ function products() {
       <TopHeader />
       <div className={style.prodbg}>
         <div className={style.innovatives}>
-          <h2>Building an innovative solution for the unbanked</h2>
+          <h2>Building an innovative solution for everyone</h2>
           <span>Explore all our products</span>
         </div>
         <div className={style.agentt}>

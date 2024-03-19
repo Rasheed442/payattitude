@@ -43,9 +43,11 @@ function company() {
       <div className={style.top}>
         <div className={style.prodbg}>
           <div className={style.becomeagent}>
-            <h2>We are committed to making payment easier</h2>
+            <h2>Enhancing Commerce & Lifestyle Through Payment Innovation</h2>
             <span>
-              Enhancing commerce and lifestyle through innovative solutions
+              Payattitude is committed to making delivering innovative solutions
+              that make payments easier and more accessible to everyone,
+              everywhere.
             </span>
           </div>
           <div className={style.agentt}>

@@ -22,13 +22,13 @@ import Why from "./Why";
 function Features() {
   const paymentcontrol = [
     {
-      name: "Collection with Phone number",
+      name: "Collections with Phone number ",
       image: flow1,
       description:
         "Offerings, tithes and contributions can now be collected easily with just a number",
     },
     {
-      name: "Send Payment Request",
+      name: "Send payment requests",
       image: flow2,
       description:
         "Request for payment/transfer from family and friends using just phone number.",

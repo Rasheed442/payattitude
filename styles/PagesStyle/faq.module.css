@@ -11,6 +11,10 @@
     line-height: 74px;
 
 }
+.agentt img{
+    height: 100%;
+    width: 100%;
+}
 
 .becomeagent {
     display: flex;
@@ -221,6 +225,14 @@
         }
 }
   @media screen and (max-width:1338px) {
+      /* .prodbg {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          gap: 60px;
+      } */
+  }
+  @media screen and (max-width:952px) {
       .prodbg {
           flex-direction: column;
           justify-content: center;

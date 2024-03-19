@@ -21,8 +21,8 @@ function faqs() {
       <div className={style.top}>
         <div className={style.prodbg}>
           <div className={style.becomeagent}>
-            <h2>Everything you need to know about payattitude</h2>
-            <span>For help, clarity and guidance</span>
+            <h2>Everything you need to know about Payattitude</h2>
+            <span>Got questions? We've got answers</span>
           </div>
           <div className={style.agentt}>
             <Image src={resources} />
@@ -31,7 +31,7 @@ function faqs() {
       </div>
       <div className={style.frq}>
         <h2>Frequently asked questions</h2>
-        <span>Everything you need to know about the payattitude</span>
+        <span>Everything you need to know about the Payattitude</span>
         <div className={style.search}>
           <AiOutlineSearch
             size={23}

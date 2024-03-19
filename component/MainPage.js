@@ -55,8 +55,8 @@ function MainPage() {
         <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
-              <h2>
-                Unleash the Power of Convenience: Manage all your bank account
+              <h2 style={{ fontSize: "40px" }}>
+                Unleash the Power of Convenience: Manage all your bank accounts
                 from one secure app
               </h2>
               <span>
@@ -85,7 +85,7 @@ function MainPage() {
                 </div>
                 <div className={style.downloads}>
                   <Image src={group} priority />
-                  <span>Over 1k+ downloads</span>
+                  <span>Over 100k+ downloads</span>
                 </div>
               </div>
             </div>
@@ -95,12 +95,10 @@ function MainPage() {
         <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
-              <h2>
-                Paying bills, shop and transact with just your phone number
-              </h2>
+              <h2>Pay bills, shop and transact with just your phone number</h2>
               <span>
-                One secure platform to pay, get paid and manage
-                <br /> your finance better and with ease
+                One secure platform to pay, get paid and manage your finance
+                better and with ease
               </span>
 
               <div className={style.group}>
@@ -122,7 +120,7 @@ function MainPage() {
                 </div>
                 <div className={style.downloads}>
                   <Image src={group} priority />
-                  <span>Over 1k+ downloads</span>
+                  <span>Over 100k+ downloads</span>
                 </div>
               </div>
             </div>
@@ -160,7 +158,7 @@ function MainPage() {
                 </div>
                 <div className={style.downloads}>
                   <Image src={group} priority />
-                  <span>Over 1k+ downloads</span>
+                  <span>Over 100k+ downloads</span>
                 </div>
               </div>
             </div>
@@ -195,7 +193,7 @@ function MainPage() {
                 </div>
                 <div className={style.downloads}>
                   <Image src={group} priority />
-                  <span>Over 1k+ downloads</span>
+                  <span>Over 100k+ downloads</span>
                 </div>
               </div>
             </div>

@@ -44,8 +44,9 @@ function Why() {
           solution for everyone
         </h2>
         <p>
-          We shouldn't just target the unbanked as the applications
-          <br /> USP is seamlessness and applies to everyone
+          With features and products that suit every lifestyle, Payattitude
+          offers <br /> seamless banking and transactions to both the banked
+          <br /> and unbanked.
         </p>
       </div>
       <div className={style.purpose}>
