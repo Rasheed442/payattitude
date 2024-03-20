@@ -8,6 +8,8 @@
 }
 .agentt img{
     border-radius: 10px;
+    height: 100%;
+        width: 100%;
 }
 .innovatives{
         padding-top: 50px;
@@ -135,6 +137,7 @@
 }
 .slidersimg img {
     height: 80%;
+    overflow: hidden;
 }
 /* .caroimg img{
     width: 80%;
@@ -213,14 +216,24 @@
             padding: 120px 120px 0px 120px;
   }
 }
-  @media screen and (max-width:1338px) {
+  /* @media screen and (max-width:1338px) {
       .prodbg {
           flex-direction: column;
           justify-content: center;
           align-items: center;
           gap: 60px;
       }
-  }
+  } */
+  
+        @media screen and (max-width:952px) {
+            .prodbg {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 60px;
+            }
+            
+        }
 @media screen and (max-width:1081px) {
 
     .top{

@@ -10,7 +10,10 @@ import {
   pos,
   web,
 } from "@/public/IMAGES";
+import { useRouter } from "next/router";
+
 function Solutions() {
+  const router = useRouter();
   const [payattitude, setPayattitude] = useState(true);
   const [payattitudeCollection, setPayattitudeCollection] = useState(false);
   const [payattitudeCorporate, setPayattitudeCorporate] = useState(false);
@@ -75,7 +78,10 @@ function Solutions() {
       </div>
 
       <div className={style.top}>
-        <div className={style.container}>
+        <div
+          className={style.container}
+          onClick={() => router.push("/products")}
+        >
           <div
             className={style.payattitude}
             style={{ borderLeft: payattitude ? "5px solid #F58220" : "" }}

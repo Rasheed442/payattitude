@@ -117,7 +117,7 @@ function products() {
             </div>
           </div>
           <div className={style.slidersimg}>
-            <Image src={caro1} priority data-aos="slide-left" />
+            <Image src={caro1} priority />
           </div>
         </div>
       )}

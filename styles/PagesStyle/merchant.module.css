@@ -3,7 +3,10 @@
     padding: 60px;
     justify-content: space-around;
 }
-
+.agentt img {
+    height: 100%;
+    width: 100%;
+}
 .becomeagent h2 {
     color: #1D2939;
     font-size: 55px;
@@ -387,14 +390,22 @@
                             height: 70vh;
                         }
   }
-  @media screen and (max-width:1338px) {
+  /* @media screen and (max-width:1338px) {
       .prodbg {
           flex-direction: column;
           justify-content: center;
           align-items: center;
           gap: 60px;
       }
-  }
+  } */
+        @media screen and (max-width:1127px) {
+            .prodbg {
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 60px;
+            }
+        }
         @media screen and (max-width:806px) {
             .agentt img {
                 width: 70%;
