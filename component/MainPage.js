@@ -55,7 +55,7 @@ function MainPage() {
         <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
-              <h2 style={{ fontSize: "40px" }}>
+              <h2 style={{ fontSize: "45px" }}>
                 Unleash the Power of Convenience: Manage all your bank accounts
                 from one secure app
               </h2>
@@ -132,7 +132,7 @@ function MainPage() {
             <div className={style.content}>
               <h2>
                 Get on the smart side,Transact with only your phone number on
-                payattitude
+                Payattitude
               </h2>
               <span>
                 One secure platform to pay, get paid and manage

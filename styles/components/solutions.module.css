@@ -95,6 +95,10 @@
 .providerimg{
     padding:-60px;
 }
+.providerimg img{
+    height: 100%;
+    width: 100%;
+}
 .shadow p{
     color: #777c79;
     font-size: 15px;

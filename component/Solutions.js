@@ -11,7 +11,6 @@ import {
   web,
 } from "@/public/IMAGES";
 import { useRouter } from "next/router";
-
 function Solutions() {
   const router = useRouter();
   const [payattitude, setPayattitude] = useState(true);
@@ -79,6 +78,7 @@ function Solutions() {
 
       <div className={style.top}>
         <div
+          style={{ cursor: "pointer" }}
           className={style.container}
           onClick={() => router.push("/products")}
         >
