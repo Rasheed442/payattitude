@@ -29,8 +29,10 @@ import gril from "./gril.svg";
 import bcn from "./bcn.svg";
 import companyy from "./company.svg";
 import prod from "./prod.svg";
+import dta from "./dta.svg";
 export {
   gril,
+  dta,
   prod,
   companyy,
   agentt,

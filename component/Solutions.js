@@ -4,6 +4,7 @@ import Image from "next/image";
 import {
   agency,
   atm,
+  dta,
   merchantlocation,
   p2p,
   payattitudemobile,
@@ -30,7 +31,7 @@ function Solutions() {
       name: "POS",
       description:
         "Make withdrawals at any POS location using your phone number",
-      image: pos,
+      image: dta,
     },
     {
       number: 3,
