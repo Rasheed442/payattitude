@@ -9,6 +9,7 @@ import {
   bord3,
   bord4,
   bord5,
+  commerce,
   companyy,
 } from "@/public/IMAGES";
 import { appstore, googleplaystore } from "@/public/ICON";
@@ -51,7 +52,7 @@ function company() {
             </span>
           </div>
           <div className={style.agentt}>
-            <Image src={companyy} />
+            <Image src={commerce} />
           </div>
         </div>
         <div className={style.about}>
