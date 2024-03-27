@@ -40,171 +40,175 @@ function MainPage() {
   return (
     <>
       {/* first carousel page  */}
-      <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 3500,
-          disableOnInteraction: false,
-        }}
-        pagination={false}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        effect={"fade"}
-        navigation={false}
-        modules={[Autoplay, Pagination, Navigation, EffectFade]}
-        className={style.swiper}
-      >
-        <SwiperSlide>
-          <div className={style.carousel1}>
-            <div className={style.content} data-aos="slide-right">
-              <h2 style={{ fontSize: "45px" }}>
-                Unleash the Power of Convenience: Manage all your bank accounts
-                from one secure app
-              </h2>
-              <span>
-                One secure platform to pay, get paid and manage
-                <br /> your finance better and with ease
-              </span>
+      <div className={style.container}>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
+          pagination={false}
+          // pagination={{
+          //   clickable: true,
+          // }}
+          effect={"fade"}
+          navigation={false}
+          modules={[Autoplay, Pagination, Navigation, EffectFade]}
+          className={style.swiper}
+        >
+          <SwiperSlide>
+            <div className={style.carousel1}>
+              <div className={style.content} data-aos="slide-right">
+                <h2>
+                  Unleash the Power of Convenience: Manage all your bank
+                  accounts from one secure app
+                </h2>
+                <span>
+                  One secure platform to pay, get paid and manage your finance
+                  better and with ease
+                </span>
 
-              <div className={style.group}>
-                <div className={style.stores}>
-                  <Image
-                    src={googleplaystore}
-                    priority
-                    onClick={() =>
-                      (window.location =
-                        "https://digital.payattitude.com/completesignup")
-                    }
-                  />
-                  <Image
-                    src={appstore}
-                    priority
-                    onClick={() =>
-                      (window.location =
-                        "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
-                    }
-                  />
-                </div>
-                <div className={style.downloads}>
-                  <Image src={group} priority />
-                  <span>Over 100k+ downloads</span>
+                <div className={style.group}>
+                  <div className={style.stores}>
+                    <Image
+                      src={googleplaystore}
+                      priority
+                      onClick={() =>
+                        (window.location =
+                          "https://digital.payattitude.com/completesignup")
+                      }
+                    />
+                    <Image
+                      src={appstore}
+                      priority
+                      onClick={() =>
+                        (window.location =
+                          "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
+                      }
+                    />
+                  </div>
+                  <div className={style.downloads}>
+                    <Image src={group} priority />
+                    <span>Over 100k+ downloads</span>
+                  </div>
                 </div>
               </div>
+              <Image src={bankmanage} priority data-aos="slide-down" />
             </div>
-            <Image src={bankmanage} priority data-aos="slide-left" />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={style.carousel1}>
-            <div className={style.content}>
-              <h2>Pay bills, shop and transact with just your phone number</h2>
-              <span>
-                One secure platform to pay, get paid and manage your finance
-                better and with ease
-              </span>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={style.carousel1}>
+              <div className={style.content}>
+                <h2>
+                  Pay bills, shop and transact with just your phone number
+                </h2>
+                <span>
+                  One secure platform to pay, get paid and manage your finance
+                  better and with ease
+                </span>
 
-              <div className={style.group}>
-                <div className={style.stores}>
-                  <Image
-                    src={googleplaystore}
-                    onClick={() =>
-                      (window.location =
-                        "https://digital.payattitude.com/completesignup")
-                    }
-                  />
-                  <Image
-                    src={appstore}
-                    onClick={() =>
-                      (window.location =
-                        "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
-                    }
-                  />
-                </div>
-                <div className={style.downloads}>
-                  <Image src={group} priority />
-                  <span>Over 100k+ downloads</span>
+                <div className={style.group}>
+                  <div className={style.stores}>
+                    <Image
+                      src={googleplaystore}
+                      onClick={() =>
+                        (window.location =
+                          "https://digital.payattitude.com/completesignup")
+                      }
+                    />
+                    <Image
+                      src={appstore}
+                      onClick={() =>
+                        (window.location =
+                          "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
+                      }
+                    />
+                  </div>
+                  <div className={style.downloads}>
+                    <Image src={group} priority />
+                    <span>Over 100k+ downloads</span>
+                  </div>
                 </div>
               </div>
+              <Image src={imagecaro2} priority />
             </div>
-            <Image src={imagecaro2} priority />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={style.carousel1}>
-            <div className={style.content}>
-              <h2>
-                Get on the smart side,Transact with only your phone number on
-                Payattitude
-              </h2>
-              <span>
-                One secure platform to pay, get paid and manage
-                <br /> your finance better and with ease
-              </span>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={style.carousel1}>
+              <div className={style.content}>
+                <h2>
+                  Get on the smart side,Transact with only your phone number on
+                  Payattitude
+                </h2>
+                <span>
+                  One secure platform to pay, get paid and manage your finance
+                  better and with ease
+                </span>
 
-              <div className={style.group}>
-                <div className={style.stores}>
-                  <Image
-                    src={googleplaystore}
-                    onClick={() =>
-                      (window.location =
-                        "https://digital.payattitude.com/completesignup")
-                    }
-                  />
-                  <Image
-                    src={appstore}
-                    onClick={() =>
-                      (window.location =
-                        "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
-                    }
-                  />
-                </div>
-                <div className={style.downloads}>
-                  <Image src={group} priority />
-                  <span>Over 100k+ downloads</span>
+                <div className={style.group}>
+                  <div className={style.stores}>
+                    <Image
+                      src={googleplaystore}
+                      onClick={() =>
+                        (window.location =
+                          "https://digital.payattitude.com/completesignup")
+                      }
+                    />
+                    <Image
+                      src={appstore}
+                      onClick={() =>
+                        (window.location =
+                          "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
+                      }
+                    />
+                  </div>
+                  <div className={style.downloads}>
+                    <Image src={group} priority />
+                    <span>Over 100k+ downloads</span>
+                  </div>
                 </div>
               </div>
+              <Image src={imagecaro1} priority />
             </div>
-            <Image src={imagecaro1} priority />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className={style.carousel1}>
-            <div className={style.content}>
-              <h2>Withdraw cash with just your phone number</h2>
-              <span>
-                One secure platform to pay, get paid and manage your finance
-                better and with ease
-              </span>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={style.carousel1}>
+              <div className={style.content}>
+                <h2>Withdraw cash with just your phone number</h2>
+                <span>
+                  One secure platform to pay, get paid and manage your finance
+                  better and with ease
+                </span>
 
-              <div className={style.group}>
-                <div className={style.stores}>
-                  <Image
-                    src={googleplaystore}
-                    onClick={() =>
-                      (window.location =
-                        "https://digital.payattitude.com/completesignup")
-                    }
-                  />
-                  <Image
-                    src={appstore}
-                    onClick={() =>
-                      (window.location =
-                        "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
-                    }
-                  />
-                </div>
-                <div className={style.downloads}>
-                  <Image src={group} priority />
-                  <span>Over 100k+ downloads</span>
+                <div className={style.group}>
+                  <div className={style.stores}>
+                    <Image
+                      src={googleplaystore}
+                      onClick={() =>
+                        (window.location =
+                          "https://digital.payattitude.com/completesignup")
+                      }
+                    />
+                    <Image
+                      src={appstore}
+                      onClick={() =>
+                        (window.location =
+                          "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
+                      }
+                    />
+                  </div>
+                  <div className={style.downloads}>
+                    <Image src={group} priority />
+                    <span>Over 100k+ downloads</span>
+                  </div>
                 </div>
               </div>
+              <Image src={imagecaro3} priority />
             </div>
-            <Image src={imagecaro3} priority />
-          </div>
-        </SwiperSlide>
-      </Swiper>
+          </SwiperSlide>
+        </Swiper>
+      </div>
     </>
   );
 }

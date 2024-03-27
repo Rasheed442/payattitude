@@ -121,7 +121,7 @@ function Why() {
             />
           </div>
         </div>
-        <Image src={payattitudemob} data-aos="slide-left" />
+        <Image src={payattitudemob} data-aos="slide-up" />
       </div>
       <Footer />
     </div>

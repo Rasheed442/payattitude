@@ -1,4 +1,6 @@
     
+    .container{
+    }
     .carousel1 {
             display: flex;
             justify-content: space-between;
@@ -6,7 +8,6 @@
             padding: 0px 80px 20px 70px;
             align-items: center;
             background-color: white;
-            overflow: hidden;
     
         }
   
@@ -90,10 +91,10 @@
 
 
 /* for bigger screens */
-@media screen and (min-width:2061px) {
+@media screen and (min-width:2000px) {
   
                         .carousel1 {
-                            padding: 120px 00px 20px 0px;
+                            padding: 120px 20px 20px 20px;
                             display: flex;
                             justify-content: space-around;
                             align-items: flex-start;
@@ -102,32 +103,33 @@
                         }
             
                         .content {
-                            width: 40%;
+                            width: 50%;
                             height: 50vh;
                         }
             
                         .carousel1 img {
-                            width: 30%;
-                            height: 30%;
+                            /* width: 30%;
+                            height: 30%; */
                         }
 
     
                 .content h2 {
                     font-size: 70px;
                     font-weight: 500;
-                    line-height: 90px;
+                    line-height: 80px;
                 }
                 .content span{
                     font-size: 40px;
                     line-height: 50px;
                     font-weight: 100;
                 }
-                .stores img{
-                    width: 100%;
-                }
+            
                 .group {
                     padding-top: 70px;
                     gap: 30px;
+                }
+                .downloads span{
+                    font-size: 25px;
                 }
 }
 /* for bigger screens */
