@@ -10,7 +10,8 @@ import {
 import { appstore, googleplaystore, group } from "@/public/ICON";
 import { motion, AnimatePresence } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 // modeule for swiperjs
 import "swiper/css";
 import "swiper/css/pagination";
@@ -19,6 +20,9 @@ import "swiper/css/effect-fade";
 import { Autoplay, Pagination, Navigation, EffectFade } from "swiper/modules";
 
 function MainPage() {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   const [backgroundIndex, setbackgroundIndex] = useState(0);
 
   const backgrounds = [bankmanage, imagecaro1, imagecaro2, imagecaro3];
@@ -54,7 +58,7 @@ function MainPage() {
       >
         <SwiperSlide>
           <div className={style.carousel1}>
-            <div className={style.content}>
+            <div className={style.content} data-aos="slide-right">
               <h2 style={{ fontSize: "45px" }}>
                 Unleash the Power of Convenience: Manage all your bank accounts
                 from one secure app
@@ -89,7 +93,7 @@ function MainPage() {
                 </div>
               </div>
             </div>
-            <Image src={bankmanage} priority />
+            <Image src={bankmanage} priority data-aos="slide-left" />
           </div>
         </SwiperSlide>
         <SwiperSlide>

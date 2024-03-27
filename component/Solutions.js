@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import style from "../styles/components/solutions.module.css";
 import Image from "next/image";
 import {
@@ -12,8 +12,13 @@ import {
   web,
 } from "@/public/IMAGES";
 import { useRouter } from "next/router";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Solutions() {
   const router = useRouter();
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   const [payattitude, setPayattitude] = useState(true);
   const [payattitudeCollection, setPayattitudeCollection] = useState(false);
   const [payattitudeCorporate, setPayattitudeCorporate] = useState(false);
@@ -78,42 +83,63 @@ function Solutions() {
       </div>
 
       <div className={style.top}>
-        <div
-          style={{ cursor: "pointer" }}
-          className={style.container}
-          onClick={() => router.push("/products")}
-        >
-          <div
-            className={style.payattitude}
-            style={{ borderLeft: payattitude ? "5px solid #F58220" : "" }}
-          >
-            <p>Payattitude Digital</p>
-            <span>
-              Our trendy, smart and convenient payment platform enables users
-              touse just
-              <br /> their phone numbers for transactions at the ATM, web, POS
-              and atmerchant
-              <br /> locations.
-            </span>
+        <div style={{ cursor: "pointer" }} className={style.container}>
+          {/* <div className={style.payattitude}>
+            <div className={style.hover} data-aos="slide-up">
+              <p>Payattitude Digital</p>
+              <span>
+                Our trendy, smart and convenient payment platform enables users
+                touse just
+                <br /> their phone numbers for transactions at the ATM, web, POS
+                and atmerchant
+                <br /> locations.
+              </span>
+              <button>view more</button>
+            </div>
+          </div> */}
+          <div className={style.payattitude} data-aos="slide-up">
+            <div className={style.hover}>
+              <p>Payattitude Digital</p>
+              <span>
+                Our trendy, smart and convenient payment platform enables users
+                touse just
+                <br /> their phone numbers for transactions at the ATM, web, POS
+                and atmerchant
+                <br /> locations.
+              </span>
+              <button onClick={() => router.push("/products")}>
+                view more
+              </button>
+            </div>
           </div>
-          <div className={style.payattitude}>
-            <p>Payattitude Digital Collection Solution</p>
-            <span>
-              Simplified collection solution for contributions, dues and
-              offerings; get anyone
-              <br /> to pay you easily, using their phone number.
-            </span>
+          <div className={style.payattitude} data-aos="slide-up">
+            <div className={style.hover}>
+              <p>Payattitude Digital Collection Solution</p>
+              <span>
+                Simplified collection solution for contributions, dues and
+                offerings; get anyone
+                <br /> to pay you easily, using their phone number.
+              </span>
+              <button onClick={() => router.push("/products")}>
+                view more
+              </button>
+            </div>
           </div>
-          <div className={style.payattitude}>
-            <p>Payattitude Corporate</p>
-            <span>
-              End-to-end secure and convenient payment solution that enables
-              corporates to
-              <br /> extend their services to, and get paid by the unbanked.
-            </span>
+          <div className={style.payattitude} data-aos="slide-up">
+            <div className={style.hover}>
+              <p>Payattitude Corporate</p>
+              <span>
+                End-to-end secure and convenient payment solution that enables
+                corporates to
+                <br /> extend their services to, and get paid by the unbanked.
+              </span>
+              <button onClick={() => router.push("/products")}>
+                view more
+              </button>
+            </div>
           </div>
         </div>
-        <Image src={payattitudemobile} />
+        <Image src={payattitudemobile} data-aos="slide-up" />
       </div>
 
       {/* How it works  */}
@@ -130,7 +156,7 @@ function Solutions() {
         </span>
       </div>
 
-      <div className={style.ussd}>
+      <div className={style.ussd} data-aos="zoom-in">
         {details.map((d) => {
           return (
             <div className={style.shadow}>

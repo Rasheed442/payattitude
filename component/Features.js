@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "../styles/components/feature.module.css";
 import Image from "next/image";
 import {
@@ -15,11 +15,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import Link from "next/link";
 import Why from "./Why";
 function Features() {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   const paymentcontrol = [
     {
       name: "Collections with Phone number ",
@@ -145,7 +149,7 @@ function Features() {
           {carouselswipe.map((c) => {
             return (
               <SwiperSlide>
-                <div className={style.swiperslide}>
+                <div className={style.swiperslide} data-aos="slide-up">
                   <Image src={c?.image} />
                   <div className={style.contentslides}>
                     <h2>{c?.title}</h2>

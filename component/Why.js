@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import style from "../styles/components/why.module.css";
 import { flow1, flow2, flow3 } from "@/public/IMAGES";
 import Lottie from "lottie-react";
@@ -13,7 +13,13 @@ import {
   recievephone,
 } from "@/public/ICON";
 import Footer from "./Footer";
+import Link from "next/link";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Why() {
+  useEffect(() => {
+    Aos.init({ duration: 500 });
+  }, []);
   const reasons = [
     {
       icon: flow1,
@@ -36,7 +42,7 @@ function Why() {
   ];
   return (
     <div>
-      <div className={style.top}>
+      <div className={style.top} data-aos="zoom-in">
         <span>Why Payattitude</span>
         <h2>
           Building an innovative
@@ -49,7 +55,7 @@ function Why() {
           <br /> and unbanked.
         </p>
       </div>
-      <div className={style.purpose}>
+      <div className={style.purpose} data-aos="slide-up">
         {reasons.map((d) => {
           return (
             <div className={style.lottie}>
@@ -93,7 +99,7 @@ function Why() {
       </div>
 
       <div className={style.join}>
-        <div className={style.people}>
+        <div className={style.people} data-aos="slide-right">
           <p>
             Join 100k+ people who transact with
             <br /> <span>Payattitude</span>
@@ -115,7 +121,7 @@ function Why() {
             />
           </div>
         </div>
-        <Image src={payattitudemob} />
+        <Image src={payattitudemob} data-aos="slide-left" />
       </div>
       <Footer />
     </div>

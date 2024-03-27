@@ -26,8 +26,9 @@
         }
     
         .content h2 {
-            font-size: 50px;
-            font-weight: 400;
+            font-size: 40px;
+            font-weight: 500;
+            width: 80%;
             /* line-height: 95px; */
         }
     
