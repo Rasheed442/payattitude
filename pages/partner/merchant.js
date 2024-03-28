@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "../../styles/PagesStyle/merchant.module.css";
 import TopHeader from "@/component/TopHeader";
 import { bcn, gril, payattitudemobile } from "@/public/IMAGES";
@@ -8,6 +8,7 @@ import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
 import Footer from "@/component/Footer";
 import ListOfMerchant, { merchants } from "@/component/ListOfMerchant";
 import { useRouter } from "next/router";
+import CreateMerchant from "@/component/CreateMerchant";
 function merchant() {
   <ListOfMerchant />;
   const router = useRouter();
@@ -92,8 +93,10 @@ function merchant() {
       title: "Step 4 – Click on submit",
     },
   ];
+  const [creatmerchant, setCreateMerchant] = useState();
   return (
     <div>
+      {creatmerchant && <CreateMerchant close={setCreateMerchant} />}
       <TopHeader />
       <div className={style.top}>
         <div className={style.prodbg}>
@@ -105,7 +108,7 @@ function merchant() {
               number
             </span>
             <button
-              onClick={() => router.push("/contact")}
+              onClick={() => setCreateMerchant(true)}
               style={{ cursor: "pointer" }}
             >
               Become a merchant

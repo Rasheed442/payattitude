@@ -1,6 +1,7 @@
 import TopHeader from "@/component/TopHeader";
-import React from "react";
+import React, { useState } from "react";
 import style from "../../styles/PagesStyle/agent.module.css";
+import secstyle from "../../styles/PagesStyle/merchant.module.css";
 import Image from "next/image";
 import { agentt, building, gril } from "@/public/IMAGES";
 import { appstore, check, googleplaystore } from "@/public/ICON";
@@ -11,6 +12,7 @@ import {
 } from "react-icons/ai";
 import Footer from "@/component/Footer";
 import ListOfMerchant, { merchants } from "@/component/ListOfMerchant";
+import CreateAgent from "@/component/CreateAgent";
 
 function agent() {
   <ListOfMerchant />;
@@ -71,18 +73,28 @@ function agent() {
         "select “register as an agent” and click ok to complete registration.",
     },
   ];
+  const [createanagent, setCreateAnAgent] = useState(false);
   return (
     <div>
+      {createanagent && <CreateAgent close={setCreateAnAgent} />}
       <TopHeader />
       <div className={style.top}>
         <div className={style.prodbg}>
-          <div className={style.becomeagent}>
+          <div className={secstyle.becomeagent}>
             <h2>Become an Agent</h2>
             <span>
               Payattitude is a simple user friendly and cost effective way of
               providing secured banking services such as Cash deposit and Cash
               withdrawal to groups of people in a community.
             </span>
+            <button
+              onClick={() => {
+                setCreateAnAgent(true);
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              Become an agent
+            </button>
           </div>
           <div className={style.agentt}>
             <Image src={agentt} priority />

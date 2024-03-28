@@ -13,7 +13,7 @@
       background-color: white;
       position: relative;
       border-radius: 10px;
-      width: 100%;
+      width: 30%;
       max-height: 75%;
       max-width: 75%;
       overflow: hidden;
@@ -21,9 +21,20 @@
       display: flex;
       flex-direction: column;
       gap: 10px;
-      padding: 20px 30px 0px 30px;
+      z-index: 9999999999;
+      padding: 20px 20px 20px 20px;
+  }
+
+  .close span{
+      width: 20%;
   }
   .close{
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .close p{
+    text-align: center;
+    width: 80%;
+    color: #F58220;
   }
