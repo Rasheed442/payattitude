@@ -20,7 +20,7 @@ function TopHeader() {
 
   return (
     <div className={styles.container}>
-      <Image src={payattitude} priority />
+      <Image src={payattitude} priority onClick={() => router.push("/")} />
       <div className={styles.navlink}>
         <Link href="/">
           <span

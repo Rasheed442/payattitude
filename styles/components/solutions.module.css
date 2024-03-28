@@ -43,15 +43,17 @@
 .hover button{
     z-index: -1;
     background-color: transparent;
-    width: 50%;
+    width: 30%;
     margin-top: 10px;
     border-radius: 5px;
     position: absolute;
+    text-align: start;
     padding: 6px;
     bottom: 5%;
     cursor: pointer;
-    border:  1px solid #F58220;
-    background-color: white;
+    /* border:  1px solid #F58220; */
+    border: none;
+    color: #F58220;
 }
 .hover{
     display: flex;
