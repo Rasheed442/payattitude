@@ -70,7 +70,6 @@
     
 }
 .hover:hover button{
-    cursor: pointer;
     bottom: 0%;
     z-index: 10;
     transition: 0.5s linear;
@@ -166,6 +165,10 @@
         .shadow h3{
                 font-size: 29px;
                 line-height: 30px;
+        }
+        .hover button{
+            font-size: 25px;
+            font-weight: 500;
         }
      
         .shadow{

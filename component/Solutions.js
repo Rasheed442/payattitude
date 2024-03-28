@@ -4,6 +4,8 @@ import Image from "next/image";
 import {
   agency,
   atm,
+  corp,
+  digital,
   dta,
   merchantlocation,
   p2p,
@@ -83,7 +85,7 @@ function Solutions() {
       </div>
 
       <div className={style.top}>
-        <div style={{ cursor: "pointer" }} className={style.container}>
+        <div className={style.container}>
           {/* <div className={style.payattitude}>
             <div className={style.hover} data-aos="slide-up">
               <p>Payattitude Digital</p>
@@ -97,7 +99,15 @@ function Solutions() {
               <button>view more</button>
             </div>
           </div> */}
-          <div className={style.payattitude} data-aos="slide-up">
+          <div
+            className={style.payattitude}
+            data-aos="slide-up"
+            onClick={() => {
+              setPayattitudeCorporate(false);
+              setPayattitude(true);
+              setPayattitudeCollection(false);
+            }}
+          >
             <div className={style.hover}>
               <p>Payattitude Digital</p>
               <span>
@@ -112,7 +122,15 @@ function Solutions() {
               </button>
             </div>
           </div>
-          <div className={style.payattitude} data-aos="slide-up">
+          <div
+            className={style.payattitude}
+            data-aos="slide-up"
+            onClick={() => {
+              setPayattitudeCorporate(false);
+              setPayattitude(false);
+              setPayattitudeCollection(true);
+            }}
+          >
             <div className={style.hover}>
               <p>Payattitude Digital Collection Solution</p>
               <span>
@@ -125,7 +143,15 @@ function Solutions() {
               </button>
             </div>
           </div>
-          <div className={style.payattitude} data-aos="slide-up">
+          <div
+            className={style.payattitude}
+            data-aos="slide-up"
+            onClick={() => {
+              setPayattitudeCorporate(true);
+              setPayattitude(false);
+              setPayattitudeCollection(false);
+            }}
+          >
             <div className={style.hover}>
               <p>Payattitude Corporate</p>
               <span>
@@ -139,7 +165,15 @@ function Solutions() {
             </div>
           </div>
         </div>
-        <Image src={payattitudemobile} data-aos="slide-up" />
+        {payattitude && (
+          <Image src={payattitudemobile} data-aos="slide-up" priority />
+        )}
+        {payattitudeCollection && (
+          <Image src={digital} data-aos="slide-up" priority />
+        )}
+        {payattitudeCorporate && (
+          <Image src={corp} data-aos="slide-up" priority />
+        )}
       </div>
 
       {/* How it works  */}

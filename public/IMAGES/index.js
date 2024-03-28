@@ -31,7 +31,11 @@ import companyy from "./company.svg";
 import prod from "./prod.svg";
 import dta from "./dta.svg";
 import commerce from "./commerce.svg";
+import corp from "./corp.svg";
+import digital from "./digital.svg";
 export {
+  corp,
+  digital,
   gril,
   dta,
   commerce,
