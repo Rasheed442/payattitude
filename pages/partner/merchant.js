@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import style from "../../styles/PagesStyle/merchant.module.css";
 import TopHeader from "@/component/TopHeader";
-import { bcn, gril, payattitudemobile } from "@/public/IMAGES";
+import { bcn, corp, digital, gril, payattitudemobile } from "@/public/IMAGES";
 import Image from "next/image";
 import { appstore, check, googleplaystore, payattitude } from "@/public/ICON";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
@@ -115,7 +115,7 @@ function merchant() {
             </button>
           </div>
           <div className={style.agentt}>
-            <Image src={bcn} />
+            <Image src={bcn} priority />
           </div>
         </div>
         <div className={style.centerdiv}>
@@ -134,7 +134,7 @@ function merchant() {
       </div>
       <div className={style.building2}>
         <div className={style.building2img}>
-          <Image src={payattitudemobile} height={600} width={600} />
+          <Image src={payattitudemobile} priority height={600} width={600} />
         </div>
         <div className={style.content}>
           <div className={style.agent}>
@@ -143,7 +143,7 @@ function merchant() {
           {about.map((a) => {
             return (
               <div className={style.liam}>
-                <Image src={a.icon} />
+                <Image src={a.icon} priority />
                 <p>{a.title}</p>
               </div>
             );
@@ -154,7 +154,7 @@ function merchant() {
           {approve.map((a) => {
             return (
               <div className={style.liam}>
-                <Image src={a.icon} />
+                <Image src={a.icon} priority />
                 <p>{a.title}</p>
               </div>
             );
@@ -181,7 +181,7 @@ function merchant() {
           {pos.map((a) => {
             return (
               <div className={style.liam}>
-                <Image src={a.icon} />
+                <Image src={a.icon} priority />
                 <p>{a.title}</p>
               </div>
             );
@@ -192,14 +192,14 @@ function merchant() {
           {approve.map((a) => {
             return (
               <div className={style.liam}>
-                <Image src={a.icon} />
+                <Image src={a.icon} priority />
                 <p>{a.title}</p>
               </div>
             );
           })}
         </div>
         <div className={style.building2img}>
-          <Image src={payattitudemobile} height={600} width={600} />
+          <Image src={corp} priority height={600} width={600} />
         </div>
       </div>
       <div className={style.centerdiv}>
@@ -217,7 +217,7 @@ function merchant() {
       </div>
       <div className={style.building2}>
         <div className={style.building2img}>
-          <Image src={payattitudemobile} height={600} width={600} />
+          <Image src={digital} priority height={600} width={600} />
         </div>
         <div className={style.content}>
           <div className={style.agent}>
@@ -226,7 +226,7 @@ function merchant() {
           {about.map((a) => {
             return (
               <div className={style.liam}>
-                <Image src={a.icon} />
+                <Image src={a.icon} priority />
                 <p>{a.title}</p>
               </div>
             );
@@ -237,7 +237,7 @@ function merchant() {
           {approve.map((a) => {
             return (
               <div className={style.liam}>
-                <Image src={a.icon} />
+                <Image src={a.icon} priority />
                 <p>{a.title}</p>
               </div>
             );
@@ -319,12 +319,14 @@ function merchant() {
         <div className={style.download} style={{ cursor: "pointer" }}>
           <Image
             src={googleplaystore}
+            priority
             onClick={() =>
               (window.location =
                 "https://digital.payattitude.com/completesignup")
             }
           />
           <Image
+            priority
             src={appstore}
             onClick={() =>
               (window.location =

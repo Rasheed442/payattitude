@@ -67,7 +67,6 @@
 .mission{
         background-image: url("../../public/IMAGES/frame1.svg");
             width: 50%;
-            height: 583px;
             position: relative;
             background-repeat: no-repeat;
             background-position: center;
@@ -86,9 +85,10 @@
     justify-content: flex-end;
 }
 .content span{
+    width: 60%;
     line-height: 30px;
     letter-spacing: -2%;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 400;
 }
 .content h2{
@@ -100,7 +100,6 @@
 .vision{
     background-image: url("../../public/IMAGES/frame2.svg");
         width: 20%;
-        height: 583px;
         position: relative;
         background-repeat: no-repeat;
         background-position: center;
@@ -207,8 +206,44 @@
 .download img {
     width: 170px;
 }
-
+/* @media screen and (max-width:2600px) {
+    .content {
+          display: none;
+        }
+} */
 @media screen and (min-width:2061px) {
+    .myimg {
+            /* padding: 80px; */
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+        }
+.content {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            position: absolute;
+            bottom: 40px;
+            line-height: 230px;
+            left: 270px;
+            justify-content: flex-end;
+        }
+                .content span {
+                    line-height: 42px;
+                    letter-spacing: -2%;
+                    font-size: 27px;
+                    font-weight: 400;
+                }
+        
+                .content h2 {
+                    line-height: 40px;
+                    font-size: 33px;
+                    font-weight: 500;
+                }
+
+
+      
 
     .about {
         font-size: 45px;
@@ -220,7 +255,8 @@
                                 .prodbg {
                                     display: flex;
                                     padding: 60px;
-                                    justify-content: space-around;
+                                    gap: 80px;
+                                    justify-content: center;
                                 }
                 
                                 .becomeagent h2 {

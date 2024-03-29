@@ -160,19 +160,33 @@
 }
 
 @media screen and (min-width:2061px) {
+
+        .top{
+            display: flex;
+            justify-content: center;
+        }
+        .becomeagent h2{
+            width: 70%;
+        }
+        .becomeagent{
+            gap: 30px;
+        }
     .searchicon{
         display: none;
     }
         .becomeagent span {
                 font-size: 40px;
             }
-            .becomeagent{
-            }
+      
     .frq h2{
         font-size: 40px;
     }
     .frq{
         gap: 40px;
+    }
+    .quest{
+        display: flex;
+        justify-content: center;
     }
     .frq span{
         font-size: 35px;

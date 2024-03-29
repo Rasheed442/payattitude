@@ -96,6 +96,18 @@ align-items: center;
 
 
 @media screen and (min-width:2061px) {
+    .phonepos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .swiperslide {
+            display: flex;
+            padding: 0px 0px 0px 0px;
+            gap: 10px;
+            justify-content: center;
+        }
+   
     .contentslides h2 {
             line-height: 60px;
             font-size: 57px;

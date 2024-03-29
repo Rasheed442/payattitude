@@ -250,7 +250,8 @@
 
   @media screen and (min-width:2061px) {
         .prodbg {
-                justify-content: space-around;
+                justify-content: center;
+                gap: 120px;
             }
                 .becomeagent h2 {
                     color: #1D2939;

@@ -93,11 +93,9 @@ function company() {
                 display: mission ? "" : "none",
               }}
             >
-              Leverage our people and partners to securely enhance commerce
-              <br />
-              and enable convenience through seamless transactions across
-              <br />
-              multiple channels at all times.
+              Leverage our people and partners to securely enhance commerce and
+              enable convenience through seamless transactions across multiple
+              channels at all times.
             </span>
           </div>
         </div>

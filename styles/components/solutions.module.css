@@ -155,13 +155,14 @@
 
 
 
-@media screen and (min-width:2061px) {
+@media screen and (min-width:2000px) {
     .shadow p {
             color: #777c79;
             font-size: 30px;
             font-weight: 400;
             line-height: 46px;
         }
+    
         .shadow h3{
                 font-size: 29px;
                 line-height: 30px;
@@ -188,6 +189,10 @@
             font-size: 55px;
          
         }
+        .Solutions{
+            padding: 120px;
+        }
+      
     
         .Solutions span {
              line-height: 55px;
@@ -195,7 +200,7 @@
         }
         .top{
             justify-content: space-around;
-                    padding: 30px 0px 20px 0px;
+                    /* padding: 30px 0px 20px 0px; */
         }
         .top img{
             width: 30%;
@@ -240,7 +245,7 @@
         line-height: 60px;
     }
     .top{
-        gap: 60px;
+        gap: 0px;
     }
 }
 

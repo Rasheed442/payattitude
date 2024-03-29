@@ -86,19 +86,6 @@ function Solutions() {
 
       <div className={style.top}>
         <div className={style.container}>
-          {/* <div className={style.payattitude}>
-            <div className={style.hover} data-aos="slide-up">
-              <p>Payattitude Digital</p>
-              <span>
-                Our trendy, smart and convenient payment platform enables users
-                touse just
-                <br /> their phone numbers for transactions at the ATM, web, POS
-                and atmerchant
-                <br /> locations.
-              </span>
-              <button>view more</button>
-            </div>
-          </div> */}
           <div
             className={style.payattitude}
             data-aos="slide-up"

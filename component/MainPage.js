@@ -184,6 +184,7 @@ function MainPage() {
                 <div className={style.group}>
                   <div className={style.stores}>
                     <Image
+                      priority
                       src={googleplaystore}
                       onClick={() =>
                         (window.location =
@@ -191,6 +192,7 @@ function MainPage() {
                       }
                     />
                     <Image
+                      priority
                       src={appstore}
                       onClick={() =>
                         (window.location =
