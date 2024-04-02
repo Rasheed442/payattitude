@@ -5,6 +5,8 @@
             gap: 20px;
     width: 100%;
     justify-content: center;
+        max-width: 1500px;
+            margin: auto;
 }
 .agentt img{
     border-radius: 10px;
@@ -135,6 +137,8 @@
     /* align-items: center; */
     /* overflow: hidden; */
     /* gap: 170px; */
+        max-width: 1500px;
+            margin: auto;
 }
 .slidersimg img {
     height: 80%;

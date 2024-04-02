@@ -107,6 +107,8 @@
     grid-template-columns: repeat(3,auto);
     justify-content:center;
     gap: 40px;
+    max-width: 1500px;
+        margin: auto;
     /* padding:20px 80px 130px 80px; */
     padding: 20px 360px 130px 360px;
 }
