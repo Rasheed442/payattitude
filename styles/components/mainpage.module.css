@@ -148,6 +148,9 @@
                 line-height: 32px;
                 font-weight: 300;
             }
+            .bk{
+                display: none;
+            }
         .carousel1{
             justify-content: start;
         }

@@ -94,7 +94,12 @@ function MainPage() {
                   </div>
                 </div>
               </div>
-              <Image src={bankmanage} priority data-aos="slide-down" />
+              <Image
+                src={bankmanage}
+                priority
+                data-aos="slide-down"
+                className={style.bk}
+              />
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -131,7 +136,7 @@ function MainPage() {
                   </div>
                 </div>
               </div>
-              <Image src={imagecaro2} priority />
+              <Image src={imagecaro2} priority className={style.bk} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -169,7 +174,7 @@ function MainPage() {
                   </div>
                 </div>
               </div>
-              <Image src={imagecaro1} priority />
+              <Image src={imagecaro1} priority className={style.bk} />
             </div>
           </SwiperSlide>
           <SwiperSlide>
@@ -206,7 +211,7 @@ function MainPage() {
                   </div>
                 </div>
               </div>
-              <Image src={imagecaro3} priority />
+              <Image src={imagecaro3} priority className={style.bk} />
             </div>
           </SwiperSlide>
         </Swiper>
