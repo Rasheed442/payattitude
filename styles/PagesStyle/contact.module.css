@@ -2,7 +2,7 @@
     display: flex;
     padding: 40px;
     align-items: flex-start;
-    justify-content: space-between ;
+    justify-content: center ;
 }
 
 .becomeagent h2 {
@@ -88,6 +88,8 @@
     justify-content: center;
     /* gap: 50px; */
     padding: 0px 0px 70px 0px;
+        max-width: 2000px;
+            margin: auto;
 }
 .lots{
     display: flex;
