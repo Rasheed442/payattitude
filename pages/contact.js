@@ -1,7 +1,7 @@
 import TopHeader from "@/component/TopHeader";
 import React, { useState } from "react";
 import style from "../styles/PagesStyle/contact.module.css";
-import { flow1, flow2, flow3 } from "@/public/IMAGES";
+import { flow1, flow2, flow3, flow7, flow8, flow9 } from "@/public/IMAGES";
 import Lottie from "lottie-react";
 import Image from "next/image";
 import { contacts, doccontact } from "@/public/ICON";
@@ -14,18 +14,18 @@ function contact() {
   const [message, setMessage] = useState();
   const details = [
     {
-      icon: flow1,
+      icon: flow8,
       name: "Address",
       title: "3,Idowu Taylor street, Victoria Island, Lagos, Nigeria",
     },
     {
-      icon: flow2,
+      icon: flow9,
       name: "Phone Numbers",
       title:
         "020-1-22728700700-Payattitude (070072928848833)+234 902 068 2250(Whatsapp)",
     },
     {
-      icon: flow3,
+      icon: flow7,
       name: "Email",
       title: "customerservice@payattitude.com",
     },
@@ -52,7 +52,7 @@ function contact() {
         <div className={style.prodbg}>
           <div className={style.becomeagent}>
             <p>Contact Us</p>
-            <h2>Let Us hear from you</h2>
+            <h2>Let us hear from you</h2>
             <span>We are here to fully help you.</span>
           </div>
           <div className={style.agentt}>

@@ -8,7 +8,7 @@ import {
   receiptPhone,
   recievephone,
 } from "@/public/ICON";
-import { flow1, flow2, flow3, flow5 } from "@/public/IMAGES";
+import { flow1, flow2, flow3, flow5, flow6 } from "@/public/IMAGES";
 import Lottie from "lottie-react";
 import { FaArrowRight } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -51,7 +51,7 @@ function Features() {
     },
     {
       name: "ATM Withdrawals with Phone Number",
-      image: flow2,
+      image: flow6,
       description:
         "Send friends, family and staff to withdraw cash at the ATM with just a phone number",
     },

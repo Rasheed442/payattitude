@@ -13,6 +13,10 @@ import flow1 from "./Flow1.json";
 import flow2 from "./Flow2.json";
 import flow3 from "./Flow3.json";
 import flow5 from "./Flow5.json";
+import flow6 from "./Flow6.json";
+import flow7 from "./Flow7.json";
+import flow8 from "./Flow8.json";
+import flow9 from "./Flow9.json";
 import prodbg from "./prodbg.svg";
 import agentt from "./agent.svg";
 import bord from "./bord.svg";
@@ -35,9 +39,13 @@ import corp from "./corp.svg";
 import digital from "./digital.svg";
 export {
   corp,
+  flow6,
   digital,
   gril,
+  flow7,
   dta,
+  flow8,
+  flow9,
   commerce,
   prod,
   companyy,
