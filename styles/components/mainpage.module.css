@@ -90,21 +90,21 @@
 /* for bigger screens */
 @media screen and (min-width:2300px) {
 .content{
-    height: 70vh;
+    height: 65vh;
     width: 100%;
 }
 }
 @media screen and (min-width:2000px) {
   
                         .carousel1 {
-                            padding: 120px 20px 20px 20px;
+                            padding: 100px 20px 0px 20px;
                             display: flex;
                             justify-content: center;
                             align-items: flex-start;
-                            height: 100vh;
                         }
             
                         .content {
+                                height: 65vh;
                             width: 100%;
                         }
             
