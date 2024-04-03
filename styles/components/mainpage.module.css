@@ -5,7 +5,7 @@
             padding: 0px 80px 20px 70px;
             align-items: center;
             background-color: white;
-            max-width: 1600px;
+            max-width: 1800px;
             margin: auto;
     
         }
@@ -24,7 +24,7 @@
         }
     
         .content h2 {
-            font-size: 40px;
+            font-size: 3vw;
             font-weight: 500;
             width: 80%;
             /* line-height: 95px; */
@@ -32,7 +32,7 @@
     
         .content span {
             color: #475467;
-            font-size: 20px;
+            font-size: 1.3vw;
             line-height: 32px;
             font-weight: 300;
             width: 70%;
@@ -68,7 +68,7 @@
     
         .downloads span {
             color: #475467;
-            font-size: 15px;
+            font-size: 1.1vw;
             font-weight: 400;
             line-height: 28px;
         }
@@ -93,6 +93,9 @@
     height: 65vh;
     width: 100%;
 }
+.carousel1 img{
+ 
+}
 }
 @media screen and (min-width:2000px) {
   
@@ -112,12 +115,12 @@
 
 
                 .content h2 {
-                    font-size: 70px;
+                    /* font-size: 70px; */
                     font-weight: 500;
-                    line-height: 80px;
+                    /* line-height: 90px; */
                 }
                 .content span{
-                    font-size: 40px;
+                    /* font-size: 40px; */
                     line-height: 50px;
                     font-weight: 100;
                 }
@@ -127,7 +130,7 @@
                     gap: 30px;
                 }
                 .downloads span{
-                    font-size: 25px;
+                    /* font-size: 25px; */
                 }
 }
 /* for bigger screens */
@@ -145,7 +148,7 @@
     
             .content span {
                 color: #475467;
-                font-size:15px;
+                /* font-size:15px; */
                 line-height: 32px;
                 font-weight: 300;
             }
@@ -167,11 +170,11 @@
     padding: 0px 40px 0px 70px; 
  }
     .content h2{
-        font-size: 40px;
+        /* font-size: 40px; */
     }
         .content span {
             color: #475467;
-            font-size:17px;
+            /* font-size:17px; */
             line-height: 32px;
             font-weight: 300;
         }
@@ -189,7 +192,7 @@
             width: 50%;
     }
     .content h2{
-        font-size: 52px;
+        /* font-size: 52px; */
     }
            .carousel1 img {
                width:60% ;
@@ -217,7 +220,7 @@
 }
 @media screen and (max-width:687px) {
  .content h2{
-    font-size: 30px;
+    /* font-size: 30px; */
  }
  .carousel1{
                 padding: 49px 0px 20px 20px;
