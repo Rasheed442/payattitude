@@ -99,7 +99,7 @@ function Solutions() {
               <p>Payattitude Digital</p>
               <span>
                 Our trendy, smart and convenient payment platform enables users
-                touse just
+                to use just
                 <br /> their phone numbers for transactions at the ATM, web, POS
                 and atmerchant
                 <br /> locations.

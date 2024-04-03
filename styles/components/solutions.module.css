@@ -27,9 +27,9 @@
 }
 .payattitude p{
     color: #1D2939;
-    font-size: 26px;
+    font-size: 1.7vw;
     font-weight: 500;
-    line-height: 38px;
+    line-height: 3vw;
 }
 .payattitude{
     display: flex;
@@ -49,6 +49,7 @@
     position: absolute;
     text-align: start;
     padding: 6px;
+    font-size: 1vw;
     bottom: 5%;
     cursor: pointer;
     /* border:  1px solid #F58220; */
@@ -80,8 +81,8 @@
 }
 .payattitude span{
         color: #7b8492;
-        font-size: 14px;
-        line-height: 24px;
+        font-size: 1vw;
+        line-height: 1.8vw;
         font-weight: 300;
 }
 .container{
@@ -138,6 +139,8 @@
     padding:-60px;
 }
 .providerimg img{
+    /* width: 24vw;
+    height: 24vw; */
     height: 100%;
     width: 100%;
 }
@@ -169,10 +172,10 @@
                 font-size: 29px;
                 line-height: 30px;
         }
-        .hover button{
+        /* .hover button{
             font-size: 25px;
             font-weight: 500;
-        }
+        } */
      
         .shadow{
             gap: 20px;
@@ -192,7 +195,7 @@
          
         }
         .Solutions{
-            padding:0px;
+            padding:120px;
         }
       
     
@@ -210,11 +213,11 @@
         }
 }
 @media screen and (min-width:1779px) {
-.payattitude p {
+/* .payattitude p {
         color: #1D2939;
         font-size: 36px;
         line-height: 38px;
-    }
+    } */
 
     .payattitude {
      
@@ -222,30 +225,30 @@
         padding: 0px 0px 60px 40px;
     }
 
-    .payattitude span {
+    /* .payattitude span {
         color: #7b8492;
         font-size: 22px;
         line-height: 30px;
-    }
+    } */
 }
 @media screen and (min-width:2500px) {
-.payattitude p {
+/* .payattitude p {
         color: #1D2939;
         font-size: 46px;
         line-height: 38px;
-    }
+    } */
 
     .payattitude {
      
         gap: 25px;
         padding: 0px 0px 60px 40px;
     }
-
+/* 
     .payattitude span {
         color: #7b8492;
         font-size: 32px;
         line-height: 60px;
-    }
+    } */
     .top{
         gap: 0px;
     }

@@ -12,7 +12,8 @@
   
     
         .carousel1 img {
-            width: 45%;
+            width: 45vw;
+           
         }
     
         .content {
@@ -33,7 +34,7 @@
         .content span {
             color: #475467;
             font-size: 1.3vw;
-            line-height: 32px;
+            line-height: 2.2vw;
             font-weight: 300;
             width: 70%;
         }
@@ -56,7 +57,7 @@
         }
     
         .downloads img {
-            width: 162px;
+            width: 5vw;
         }
     
         .downloads {
@@ -70,7 +71,7 @@
             color: #475467;
             font-size: 1.1vw;
             font-weight: 400;
-            line-height: 28px;
+            line-height: 1.3vw;
         }
     .imp input[type="file"] {
             /* Hide the default button */
@@ -93,11 +94,23 @@
     height: 65vh;
     width: 100%;
 }
-.carousel1 img{
- 
+.carousel1{
+            max-width: 2500px;
 }
+       .bk{
+        /* width: 100%;
+        height: 100%; */
+        width: 35vw;
+        height: 35vh;
+       }
+       
+     
 }
 @media screen and (min-width:2000px) {
+    .content {
+            height: 65vh;
+            width: 100%;
+        }
   
                         .carousel1 {
                             padding: 100px 20px 0px 20px;
@@ -105,53 +118,24 @@
                             justify-content: center;
                             align-items: flex-start;
                         }
-            
-                        .content {
-                                height: 65vh;
-                            width: 100%;
-                        }
-            
-                      
-
-
-                .content h2 {
-                    /* font-size: 70px; */
-                    font-weight: 500;
-                    /* line-height: 90px; */
-                }
-                .content span{
-                    /* font-size: 40px; */
-                    line-height: 50px;
-                    font-weight: 100;
-                }
-            
                 .group {
                     padding-top: 70px;
                     gap: 30px;
                 }
-                .downloads span{
-                    /* font-size: 25px; */
-                }
+            
 }
 /* for bigger screens */
-@media screen and (min-width:2335px) {
+/* @media screen and (min-width:2335px) {
     .carousel1{
         height: 100%;
     }
-    .carousel1 img{
-    } 
-    
-}
+
+} */
 @media screen and (max-width:1258px) {
 
     @media screen and (max-width:985px) {
     
-            .content span {
-                color: #475467;
-                /* font-size:15px; */
-                line-height: 32px;
-                font-weight: 300;
-            }
+      
             .bk{
                 display: none;
             }
@@ -169,15 +153,8 @@
   .carousel1{
     padding: 0px 40px 0px 70px; 
  }
-    .content h2{
-        /* font-size: 40px; */
-    }
-        .content span {
-            color: #475467;
-            /* font-size:17px; */
-            line-height: 32px;
-            font-weight: 300;
-        }
+
+
     .carousel1 img{
         width: 40%;
     }
@@ -191,9 +168,7 @@
             padding:30px 0px 0px 0px;
             width: 50%;
     }
-    .content h2{
-        /* font-size: 52px; */
-    }
+
            .carousel1 img {
                width:60% ;
            }
