@@ -5,7 +5,7 @@
             padding: 0px 80px 20px 70px;
             align-items: center;
             background-color: white;
-            max-width: 1800px;
+            max-width: 1600px;
             margin: auto;
     
         }
@@ -25,7 +25,7 @@
         }
     
         .content h2 {
-            font-size: 3vw;
+            font-size: 2.6vw;
             font-weight: 500;
             width: 80%;
             /* line-height: 95px; */
@@ -69,7 +69,7 @@
     
         .downloads span {
             color: #475467;
-            font-size: 1.1vw;
+            font-size: 15px;
             font-weight: 400;
             line-height: 1.3vw;
         }
@@ -95,7 +95,7 @@
     width: 100%;
 }
 .carousel1{
-            max-width: 2500px;
+            max-width: 2300px;
 }
        .bk{
         /* width: 100%;
@@ -135,7 +135,12 @@
 
     @media screen and (max-width:985px) {
     
-      
+            .content span {
+                color: #475467;
+                font-size:15px;
+                line-height: 32px;
+                font-weight: 300;
+            }
             .bk{
                 display: none;
             }
@@ -153,8 +158,15 @@
   .carousel1{
     padding: 0px 40px 0px 70px; 
  }
-
-
+    .content h2{
+        font-size: 40px;
+    }
+        .content span {
+            color: #475467;
+            font-size:17px;
+            line-height: 32px;
+            font-weight: 300;
+        }
     .carousel1 img{
         width: 40%;
     }
@@ -168,7 +180,9 @@
             padding:30px 0px 0px 0px;
             width: 50%;
     }
-
+    .content h2{
+        font-size: 52px;
+    }
            .carousel1 img {
                width:60% ;
            }
@@ -195,10 +209,10 @@
 }
 @media screen and (max-width:687px) {
  .content h2{
-    /* font-size: 30px; */
+    font-size: 30px;
  }
  .carousel1{
-                padding: 49px 0px 20px 20px;
+                padding: 0px 0px 20px 20px;
  }
  .carousel1 img{
     display: none;
