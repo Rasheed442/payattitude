@@ -287,6 +287,9 @@
         font-size: 14px;
         line-height: 27px;
     }
+    .hover button{
+        font-size: 14px;
+    }
 }
 @media screen and (max-width:996px) {
     .top{
