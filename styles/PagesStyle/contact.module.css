@@ -53,6 +53,8 @@
 
 .top {
     padding: 28px 0px 0px 0px;
+        max-width: 1500px;
+            margin: auto;
 }
 .center{
     display: flex;
@@ -121,6 +123,8 @@
     gap: 90px;
     padding: 60px 60px 60px 60px;
     justify-content: center;
+        max-width: 100px;
+            margin: auto;
 }
 .contactus img{
     /* width: 50%; */
@@ -266,7 +270,7 @@
     font-size: 16px;
     font-weight: 500;
 }
-@media screen and (min-width:2061px) {
+/* @media screen and (min-width:2061px) {
 .prodbg {
         display: flex;
         padding: 40px;
@@ -388,7 +392,7 @@
          justify-content: center;
          padding: 100px;
     }
-}
+} */
   @media screen and (max-width:1338px) {
   .prodbg{
     flex-direction: column;

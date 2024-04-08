@@ -2,6 +2,8 @@
   display: flex;
   padding: 60px;
   justify-content: space-around;
+    max-width: 1500px;
+        margin: auto;
   
 }
 .becomeagent h2{
@@ -26,15 +28,25 @@
     font-size: 20px;
     font-weight: 300;
 }
+.becomeagent button {
+    background-color: #F58220;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 12px;
+    width: 200px;
+    font-weight: 500;
+}
 .agentt img {
     height: 100%;
     width: 100%;
 }
 
 
-.top {
+/* .top {
     padding: 28px 0px 0px 0px;
-}
+} */
 .centerdiv{
     display: flex;
     flex-direction: column;
@@ -65,6 +77,8 @@
     
 }
 .buildingimg img{
+    max-width: 1500px;
+        margin: auto;
 }
 .content{
     display: flex;
@@ -88,6 +102,7 @@
     align-items: center;
     gap: 50px;
     padding: 70px 0px 0px 50px;
+    
 }
 .agent span{
     color: #F58220;
@@ -111,6 +126,7 @@
       border: 1px solid #E2E2E2;
       margin: 0px 70px 120px 70px;
       border-radius: 5px;
+        max-width: 1500px;
   }
 
 
@@ -250,11 +266,26 @@
       letter-spacing: -2%;
   }
 
-  @media screen and (min-width:2061px) {
-        .prodbg {
-                justify-content: center;
-                gap: 120px;
-            }
+  @media screen and (min-width:2000px) {
+    .tablecontent{
+        max-width: 1500px;
+            margin: auto;
+    }
+  }
+/* @media screen and (min-width:2000px) {
+    .prodbg {
+            justify-content: center;
+            gap: 120px;
+            max-width: 1600px;
+            margin: auto;
+        }
+        .agent img{
+            width: 100%;
+        }
+} */
+  /* @media screen and (min-width:2061px) {
+    
+      
                 .becomeagent h2 {
                     color: #1D2939;
                     font-size: 62px;
@@ -267,7 +298,6 @@
                     display: flex;
                     flex-direction: column;
                     gap: 30px;
-                    width: 40%;
                     padding-top: 50px;
                     padding-right: 0px;
                 }
@@ -278,9 +308,7 @@
                     font-size: 33px;
                     font-weight: 300;
                 }
-            /* .becomeagent h2{
-                font-size: 80px;
-            } */
+        
                     .centerdiv h2 {
                             font-size: 70px;
                             font-weight: 500;
@@ -357,7 +385,7 @@
                                                     font-size: 45px;
                                                     line-height: 45px;
                                                 }
-  }
+  } */
 
   @media screen and (max-width:1081px) {
       .prodbg {

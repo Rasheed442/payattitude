@@ -52,7 +52,7 @@ function company() {
             </span>
           </div>
           <div className={style.agentt}>
-            <Image src={commerce} />
+            <Image src={commerce} priority />
           </div>
         </div>
         <div className={style.about}>

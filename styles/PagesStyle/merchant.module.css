@@ -2,6 +2,8 @@
     display: flex;
     padding: 60px;
     justify-content: center;
+    max-width: 1500px;
+        margin: auto;
 }
 .agentt img {
     height: 100%;
@@ -32,13 +34,13 @@
 }
 .becomeagent button{
     background-color: #F58220;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 15px;
-    padding: 12px;
-    width: 200px;
-    font-weight: 500;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        padding: 12px;
+        width: 200px;
+        font-weight: 500;
 }
 .top {
     padding: 28px 0px 0px 0px;
@@ -95,7 +97,9 @@
     justify-content: center;
     align-items: center;
     gap: 100px;
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 0px;
+        max-width: 1900px;
+            margin: auto;
 }
 
 .agent span {

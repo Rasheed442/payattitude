@@ -69,7 +69,7 @@ function TopHeader() {
             {/* {open ? "" : <FaChevronDown size={13} />} */}
           </span>
         </Link>
-        <Link href="">
+        <Link href="/resources/faqs">
           <span
             // style={{
             //   color:
@@ -83,18 +83,17 @@ function TopHeader() {
             // }}
             onClick={() => setSub(!sub)}
           >
-            Resources{open ? "" : <FaChevronDown size={13} />}
+            FAQs
+            {/* {open ? "" : <FaChevronDown size={13} />} */}
           </span>
-          {sub && (
+          {/* {sub && (
             <div className={styles.submenu}>
               <Link href="/resources/faqs">
                 <p>FAQs</p>
               </Link>
-              {/* <Link href="/resources/userguide">
-                <p>User Guide</p>
-              </Link> */}
+          
             </div>
-          )}
+          )} */}
         </Link>
       </div>
 

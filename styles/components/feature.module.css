@@ -20,7 +20,7 @@ align-items: center;
 }
 .features span{
     color: #F58220;
-    font-size: 16px;
+    font-size: 17px;
     font-weight:400;
 }
 .features p{
@@ -36,8 +36,8 @@ align-items: center;
     align-items: center;
     color: white;
     gap: 60px;
-    max-width: 1800px;
-        margin: auto;
+     max-width: 2200px;
+            margin: auto;
 }
 .lottie{
     display: flex;
@@ -63,6 +63,8 @@ align-items: center;
     display: flex;
     padding: 0px 100px 0px 100px;
     gap: 100px;
+    max-width: 2000px;
+        margin: auto;
 }
 .swiperslide img{
     width: 45%;
@@ -134,7 +136,7 @@ align-items: center;
             font-weight: 400;
         }
     .features span{
-        font-size: 38px;
+        font-size: 30px;
     }
     .features p{
         font-size:38px ;

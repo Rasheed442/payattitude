@@ -78,50 +78,48 @@ function agent() {
     <div>
       {createanagent && <CreateAgent close={setCreateAnAgent} />}
       <TopHeader />
-      <div className={style.top}>
-        <div className={style.prodbg}>
-          <div className={secstyle.becomeagent}>
-            <h2>Become an Agent</h2>
-            <span>
-              Payattitude is a simple user friendly and cost effective way of
-              providing secured banking services such as Cash deposit and Cash
-              withdrawal to groups of people in a community.
-            </span>
-            <button
-              onClick={() => {
-                setCreateAnAgent(true);
-              }}
-              style={{ cursor: "pointer" }}
-            >
-              Become an agent
-            </button>
-          </div>
-          <div className={style.agentt}>
-            <Image src={agentt} priority />
-          </div>
+      <div className={style.prodbg}>
+        <div className={style.becomeagent}>
+          <h2>Become an Agent</h2>
+          <span>
+            Payattitude is a simple user friendly and cost effective way of
+            providing secured banking services such as Cash deposit and Cash
+            withdrawal to groups of people in a community.
+          </span>
+          <button
+            onClick={() => {
+              setCreateAnAgent(true);
+            }}
+            style={{ cursor: "pointer" }}
+          >
+            Become an agent
+          </button>
         </div>
-        <div className={style.centerdiv}>
-          <h2>About Agency Banking</h2>
-          <p>
-            Agency banking is a cost effective solution designed to provide
-            financial access to the banked in locations with
-            <br /> very few ATMs/Banks, unbanked and underbanked population.
-          </p>
+        <div className={style.agentt}>
+          <Image src={agentt} priority />
         </div>
-        <div className={style.building}>
-          <div className={style.buildingimg}>
-            <Image src={building} />
-          </div>
-          <div className={style.content}>
-            {about.map((a) => {
-              return (
-                <div className={style.liam}>
-                  <Image src={a.icon} />
-                  <p>{a.title}</p>
-                </div>
-              );
-            })}
-          </div>
+      </div>
+      <div className={style.centerdiv}>
+        <h2>About Agency Banking</h2>
+        <p>
+          Agency banking is a cost effective solution designed to provide
+          financial access to the banked in locations with
+          <br /> very few ATMs/Banks, unbanked and underbanked population.
+        </p>
+      </div>
+      <div className={style.building}>
+        <div className={style.buildingimg}>
+          <Image src={building} />
+        </div>
+        <div className={style.content}>
+          {about.map((a) => {
+            return (
+              <div className={style.liam}>
+                <Image src={a.icon} />
+                <p>{a.title}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
       {/* how to become an agent */}

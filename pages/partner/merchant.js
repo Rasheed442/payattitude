@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import style from "../../styles/PagesStyle/merchant.module.css";
+import secstyle from "../../styles/PagesStyle/agent.module.css";
+
 import TopHeader from "@/component/TopHeader";
 import { bcn, corp, digital, gril, payattitudemobile } from "@/public/IMAGES";
 import Image from "next/image";
@@ -98,39 +100,37 @@ function merchant() {
     <div>
       {creatmerchant && <CreateMerchant close={setCreateMerchant} />}
       <TopHeader />
-      <div className={style.top}>
-        <div className={style.prodbg}>
-          <div className={style.becomeagent}>
-            <h2>Become a Merchant</h2>
-            <span>
-              With Payattitude digital, merchants have multiple options of
-              accepting payment from their customers but all with just phone
-              number
-            </span>
-            <button
-              onClick={() => setCreateMerchant(true)}
-              style={{ cursor: "pointer" }}
-            >
-              Become a merchant
-            </button>
-          </div>
-          <div className={style.agentt}>
-            <Image src={bcn} priority />
-          </div>
+      <div className={secstyle.prodbg}>
+        <div className={secstyle.becomeagent}>
+          <h2>Become a Merchant</h2>
+          <span>
+            With Payattitude digital, merchants have multiple options of
+            accepting payment from their customers but all with just phone
+            number
+          </span>
+          <button
+            onClick={() => setCreateMerchant(true)}
+            style={{ cursor: "pointer" }}
+          >
+            Become a merchant
+          </button>
         </div>
-        <div className={style.centerdiv}>
-          <h2>Use your mobile Phone as POS</h2>
+        <div className={style.agentt}>
+          <Image src={bcn} priority />
+        </div>
+      </div>
+      <div className={style.centerdiv}>
+        <h2>Use your mobile Phone as POS</h2>
 
-          <p>
-            Businesses that cannot afford to incur additional costs of POS have
-            the opportunity to use their mobile
-            <br />
-            phones as POS with Payattitude Digital app installed on their
-            devices, Your phone becomes your POS where they can <br />
-            send payment requests to customers and your customers in turn get
-            notified and approve payment immediately.
-          </p>
-        </div>
+        <p>
+          Businesses that cannot afford to incur additional costs of POS have
+          the opportunity to use their mobile
+          <br />
+          phones as POS with Payattitude Digital app installed on their devices,
+          Your phone becomes your POS where they can <br />
+          send payment requests to customers and your customers in turn get
+          notified and approve payment immediately.
+        </p>
       </div>
       <div className={style.building2}>
         <div className={style.building2img}>

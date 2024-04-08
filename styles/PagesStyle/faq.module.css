@@ -2,6 +2,8 @@
     display: flex;
     padding: 20px 60px 0px 60px;
     justify-content: space-around;
+        max-width: 1600px;
+            margin: auto;
 }
 
 .becomeagent h2 {
@@ -124,6 +126,8 @@
     flex-direction: column;
     gap: 30px;
     padding: 0px 0px 120px 0px;
+        max-width: 2000px;
+            margin: auto;
 }
 .semifooter{
     display: flex;
@@ -159,7 +163,7 @@
     text-align: center;
 }
 
-@media screen and (min-width:2061px) {
+@media screen and (min-width:2000px) {
 
         .top{
             display: flex;

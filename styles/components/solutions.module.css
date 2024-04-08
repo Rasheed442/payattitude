@@ -10,12 +10,12 @@
 .Solutions p{
     color: #F58220;
     font-size: 17px;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 30px;
 }
 .Solutions h3{
-    font-weight: 500;
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 32px;
     color: #1D2939;
     letter-spacing: -2%;
 }
@@ -96,19 +96,22 @@
     display: flex;
     justify-content: space-between;
     /* gap: 70px; */
-    align-items: center;
+        align-items: center;
         padding: 30px 158px 20px 40px;
+        max-width: 2000px;
+            margin: auto;
 }
 .top img{
-    width: 48%;
-    height: 48%;
+    /* width: 48%;
+    height: 48%; */
+    width: 40vw;
 }
 .ussd{
     display: grid;
     grid-template-columns: repeat(3,auto);
     justify-content:center;
     gap: 40px;
-    max-width: 1500px;
+    max-width: 2000px;
         margin: auto;
     /* padding:20px 80px 130px 80px; */
     padding: 20px 360px 130px 360px;
@@ -167,12 +170,25 @@
             font-weight: 400;
             line-height: 46px;
         }
-    
+              
+              
+                    .top {
+                            display: flex;
+                            justify-content: space-between;
+                            /* gap: 70px; */
+                            align-items: flex-start;
+                            padding: 30px 0px 20px 0px;
+                          
+                        }
+                        .top img{
+                            width: 50vw;
+                        }
+      
         .shadow h3{
                 font-size: 29px;
                 line-height: 30px;
         }
-        /* .hover button{
+/* .hover button{
             font-size: 25px;
             font-weight: 500;
         } */
@@ -186,7 +202,7 @@
                 height: 44px;
         }
     .Solutions p {
-            font-size: 34px;
+            font-size: 30px;
           
         }
     
@@ -195,64 +211,34 @@
          
         }
         .Solutions{
-            padding:120px;
+            padding:160px 0px 160px 0px;
         }
       
     
         .Solutions span {
              line-height: 55px;
-            font-size: 40px;
+            font-size: 30px;
         }
         .top{
             justify-content: space-around;
-                    /* padding: 30px 0px 20px 0px; */
+            /* padding: 30px 0px 20px 0px; */
         }
-        .top img{
+        /* .top img{
             width: 30%;
                 height: 30%;
-        }
+        } */
 }
-@media screen and (min-width:1779px) {
-/* .payattitude p {
-        color: #1D2939;
-        font-size: 36px;
-        line-height: 38px;
-    } */
 
-    .payattitude {
-     
-        gap: 25px;
-        padding: 0px 0px 60px 40px;
-    }
-
-    /* .payattitude span {
-        color: #7b8492;
-        font-size: 22px;
-        line-height: 30px;
-    } */
-}
 @media screen and (min-width:2500px) {
-/* .payattitude p {
-        color: #1D2939;
-        font-size: 46px;
-        line-height: 38px;
-    } */
+
 
     .payattitude {
      
         gap: 25px;
         padding: 0px 0px 60px 40px;
     }
-/* 
-    .payattitude span {
-        color: #7b8492;
-        font-size: 32px;
-        line-height: 60px;
-    } */
-    .top{
-        gap: 0px;
-    }
-}
+
+} 
 
 
 
