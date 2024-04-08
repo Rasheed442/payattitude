@@ -116,6 +116,7 @@ function MainPage() {
                 <div className={style.group}>
                   <div className={style.stores}>
                     <Image
+                      priority
                       src={googleplaystore}
                       onClick={() =>
                         (window.location =
@@ -123,6 +124,7 @@ function MainPage() {
                       }
                     />
                     <Image
+                      priority
                       src={appstore}
                       onClick={() =>
                         (window.location =
@@ -155,6 +157,7 @@ function MainPage() {
                   <div className={style.stores}>
                     <Image
                       src={googleplaystore}
+                      priority
                       onClick={() =>
                         (window.location =
                           "https://digital.payattitude.com/completesignup")
@@ -162,6 +165,7 @@ function MainPage() {
                     />
                     <Image
                       src={appstore}
+                      priority
                       onClick={() =>
                         (window.location =
                           "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")

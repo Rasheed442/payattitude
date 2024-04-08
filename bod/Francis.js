@@ -25,7 +25,7 @@ function Francis({ close }) {
             </p>
           </div>
         </div>
-        <Image src={bord} />
+        <Image src={bord} priority />
       </div>
     </Modal>
   );

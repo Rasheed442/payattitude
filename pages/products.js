@@ -241,6 +241,7 @@ function products() {
         <p>Download the app</p>
         <div className={style.download} style={{ cursor: "pointer" }}>
           <Image
+            priority
             src={googleplaystore}
             onClick={() =>
               (window.location =
@@ -249,6 +250,7 @@ function products() {
           />
           <Image
             src={appstore}
+            priority
             onClick={() =>
               (window.location =
                 "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")

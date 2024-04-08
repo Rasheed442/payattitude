@@ -91,7 +91,7 @@ function Why() {
             imagine working without it.”
           </h2>
           <div className={style.caroicon}>
-            <Image src={caroicon} />
+            <Image src={caroicon} priority />
             <p>Ifeanyi Okoli</p>
             <span>Chief Digital Designer, Hope Bank</span>
           </div>
@@ -111,6 +111,7 @@ function Why() {
                 (window.location =
                   "https://digital.payattitude.com/completesignup")
               }
+              priority
             />
             <Image
               src={appstore}
@@ -118,10 +119,11 @@ function Why() {
                 (window.location =
                   "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")
               }
+              priority
             />
           </div>
         </div>
-        <Image src={payattitudemob} data-aos="slide-up" />
+        <Image src={payattitudemob} data-aos="slide-up" priority />
       </div>
       <Footer />
     </div>

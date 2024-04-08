@@ -40,7 +40,7 @@ function userguide() {
         })}
       </div>
       <div className={style.semifooter}>
-        <Image src={group2} />
+        <Image src={group2} priority />
         <span>Still have questions</span>
         <p>
           Can’t find the answer you’re looking for? Please chat to our friendly

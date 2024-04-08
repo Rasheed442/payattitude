@@ -152,12 +152,12 @@ function company() {
       </div>
 
       <div className={style.chairmen}>
-        <Image src={bord} onClick={() => setFranciss(true)} />
-        <Image src={bord1} onClick={() => setAgadas(true)} />
-        <Image src={bord2} onClick={() => setVictors(true)} />
-        <Image src={bord3} onClick={() => setSampsons(true)} />
-        <Image src={bord4} onClick={() => setSeguns(true)} />
-        <Image src={bord5} onClick={() => setKelvins(true)} />
+        <Image src={bord} onClick={() => setFranciss(true)} priority />
+        <Image src={bord1} onClick={() => setAgadas(true)} priority />
+        <Image src={bord2} onClick={() => setVictors(true)} priority />
+        <Image src={bord3} onClick={() => setSampsons(true)} priority />
+        <Image src={bord4} onClick={() => setSeguns(true)} priority />
+        <Image src={bord5} onClick={() => setKelvins(true)} priority />
       </div>
       <div className={style.secfoot}>
         <span>What are you waiting for?</span>
@@ -170,8 +170,10 @@ function company() {
               (window.location =
                 "https://digital.payattitude.com/completesignup")
             }
+            priority
           />
           <Image
+            priority
             src={appstore}
             onClick={() =>
               (window.location =

@@ -33,7 +33,7 @@ function Agada({ close }) {
             </p>
           </div>
         </div>
-        <Image src={bord1} />
+        <Image src={bord1} priority />
       </div>
     </Modal>
   );

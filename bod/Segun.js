@@ -25,7 +25,7 @@ function Segun({ close }) {
             </p>
           </div>
         </div>
-        <Image src={bord4} />
+        <Image src={bord4} priority />
       </div>
     </Modal>
   );

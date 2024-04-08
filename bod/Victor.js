@@ -26,7 +26,7 @@ function Victor({ close }) {
             </p>
           </div>
         </div>
-        <Image src={bord2} />
+        <Image src={bord2} priority />
       </div>
     </Modal>
   );

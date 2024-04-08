@@ -26,7 +26,7 @@ function Kelvin({ close }) {
             </p>
           </div>
         </div>
-        <Image src={bord5} />
+        <Image src={bord5} priority />
       </div>
     </Modal>
   );

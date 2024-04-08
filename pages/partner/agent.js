@@ -109,13 +109,13 @@ function agent() {
       </div>
       <div className={style.building}>
         <div className={style.buildingimg}>
-          <Image src={building} />
+          <Image src={building} priority />
         </div>
         <div className={style.content}>
           {about.map((a) => {
             return (
               <div className={style.liam}>
-                <Image src={a.icon} />
+                <Image src={a.icon} priority />
                 <p>{a.title}</p>
               </div>
             );
@@ -135,14 +135,14 @@ function agent() {
           {about2.map((a) => {
             return (
               <div className={style.liam}>
-                <Image src={a.icon} />
+                <Image src={a.icon} priority />
                 <p>{a.title}</p>
               </div>
             );
           })}
         </div>
         <div className={style.building2img}>
-          <Image src={gril} height={600} width={600} />
+          <Image src={gril} height={600} width={600} priority />
         </div>
       </div>
       <h2
@@ -219,6 +219,7 @@ function agent() {
         <div className={style.download} style={{ cursor: "pointer" }}>
           <Image
             src={googleplaystore}
+            priority
             onClick={() =>
               (window.location =
                 "https://digital.payattitude.com/completesignup")
@@ -226,6 +227,7 @@ function agent() {
           />
           <Image
             src={appstore}
+            priority
             onClick={() =>
               (window.location =
                 "https://itunes.apple.com/ng/app/payattitude-digital/id1343904100?mt=8")

@@ -150,7 +150,7 @@ function Features() {
             return (
               <SwiperSlide>
                 <div className={style.swiperslide} data-aos="slide-up">
-                  <Image src={c?.image} />
+                  <Image src={c?.image} priority />
                   <div className={style.contentslides}>
                     <h2>{c?.title}</h2>
                     <p>{c.desc}</p>

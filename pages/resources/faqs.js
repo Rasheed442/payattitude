@@ -25,7 +25,7 @@ function faqs() {
             <span>Got questions? We've got answers</span>
           </div>
           <div className={style.agentt}>
-            <Image src={resources} />
+            <Image src={resources} priority />
           </div>
         </div>
       </div>
@@ -58,7 +58,7 @@ function faqs() {
         })}
       </div>
       <div className={style.semifooter}>
-        <Image src={group2} />
+        <Image src={group2} priority />
         <span>Still have questions</span>
         <p>
           Can’t find the answer you’re looking for? Please chat to our friendly

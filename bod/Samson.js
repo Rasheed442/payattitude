@@ -37,7 +37,7 @@ function Samson({ close }) {
             </p>
           </div>
         </div>
-        <Image src={bord3} />
+        <Image src={bord3} priority />
       </div>
     </Modal>
   );
