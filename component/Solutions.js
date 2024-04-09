@@ -99,10 +99,8 @@ function Solutions() {
               <p>Payattitude Digital</p>
               <span>
                 Our trendy, smart and convenient payment platform enables users
-                to use just
-                <br /> their phone numbers for transactions at the ATM, web, POS
-                and atmerchant
-                <br /> locations.
+                to use just their phone numbers for transactions at the ATM,
+                web, POS and atmerchant locations.
               </span>
               <button onClick={() => router.push("/products")}>
                 view more
@@ -122,8 +120,8 @@ function Solutions() {
               <p>Payattitude Digital Collection Solution</p>
               <span>
                 Simplified collection solution for contributions, dues and
-                offerings; get anyone
-                <br /> to pay you easily, using their phone number.
+                offerings; get anyone to pay you easily, using their phone
+                number.
               </span>
               <button onClick={() => router.push("/products")}>
                 view more
@@ -143,8 +141,8 @@ function Solutions() {
               <p>Payattitude Corporate</p>
               <span>
                 End-to-end secure and convenient payment solution that enables
-                corporates to
-                <br /> extend their services to, and get paid by the unbanked.
+                corporates to extend their services to, and get paid by the
+                unbanked.
               </span>
               <button onClick={() => router.push("/products")}>
                 view more

@@ -30,7 +30,8 @@ color: #475467;
     grid-template-columns: auto auto auto;
     justify-content: center;
     text-align: center;
-    max-width: 2200px;
+    max-width: 1300px;
+    /* max-width: 2200px; */
         margin: auto;
     gap: 30px;
     padding: 0px 130px 70px 130px;
@@ -135,6 +136,7 @@ color: #475467;
     .purpose{
             padding: 0px 170px 70px 170px;
             gap: 50px;
+                max-width: 2200px;
     }
     .join{
         justify-content: center;

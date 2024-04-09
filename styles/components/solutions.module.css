@@ -27,9 +27,9 @@
 }
 .payattitude p{
     color: #1D2939;
-    font-size: 1.7vw;
+    font-size: 25px;
     font-weight: 500;
-    line-height: 3vw;
+    line-height: 25px;
 }
 .payattitude{
     display: flex;
@@ -49,7 +49,7 @@
     position: absolute;
     text-align: start;
     padding: 6px;
-    font-size: 1vw;
+    font-size: 15px;
     bottom: 5%;
     cursor: pointer;
     /* border:  1px solid #F58220; */
@@ -61,6 +61,7 @@
     transition: 0.2s linear;
     flex-direction: column;
     gap: 10px;
+    width: 90%;
     background-color: white;
     position: relative;
 }
@@ -81,8 +82,8 @@
 }
 .payattitude span{
         color: #7b8492;
-        font-size: 1vw;
-        line-height: 1.8vw;
+        font-size: 16px;
+        line-height:30px;
         font-weight: 300;
 }
 .container{
@@ -94,24 +95,28 @@
 }
 .top{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 80px;
     /* gap: 70px; */
         align-items: center;
-        padding: 30px 158px 20px 40px;
-        max-width: 2000px;
+        padding: 30px 0px 20px 0px;
+        max-width: 1300px;
             margin: auto;
 }
 .top img{
     /* width: 48%;
     height: 48%; */
-    width: 40vw;
+    /* width: 40vw; */
+    height:42%;
+    width: 42%;
 }
 .ussd{
     display: grid;
     grid-template-columns: repeat(3,auto);
     justify-content:center;
     gap: 40px;
-    max-width: 2000px;
+    max-width: 1300px;
+    /* max-width: 2000px; */
         margin: auto;
     /* padding:20px 80px 130px 80px; */
     padding: 20px 360px 130px 360px;
@@ -163,7 +168,10 @@
 
 
 
-@media screen and (min-width:2000px) {
+/* @media screen and (min-width:2000px) {
+    .ussd{
+            max-width: 2200px;
+    }
     .shadow p {
             color: #777c79;
             font-size: 30px;
@@ -175,9 +183,9 @@
                     .top {
                             display: flex;
                             justify-content: space-between;
-                            /* gap: 70px; */
                             align-items: flex-start;
                             padding: 30px 0px 20px 0px;
+                                max-width: 2200px;
                           
                         }
                         .top img{
@@ -188,10 +196,7 @@
                 font-size: 29px;
                 line-height: 30px;
         }
-/* .hover button{
-            font-size: 25px;
-            font-weight: 500;
-        } */
+
      
         .shadow{
             gap: 20px;
@@ -221,15 +226,11 @@
         }
         .top{
             justify-content: space-around;
-            /* padding: 30px 0px 20px 0px; */
         }
-        /* .top img{
-            width: 30%;
-                height: 30%;
-        } */
-}
 
-@media screen and (min-width:2500px) {
+} */
+
+/* @media screen and (min-width:2500px) {
 
 
     .payattitude {
@@ -238,7 +239,7 @@
         padding: 0px 0px 60px 40px;
     }
 
-} 
+}  */
 
 
 

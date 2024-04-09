@@ -36,7 +36,8 @@ align-items: center;
     align-items: center;
     color: white;
     gap: 60px;
-     max-width: 2200px;
+     /* max-width: 2200px; */
+     max-width: 1200px;
             margin: auto;
 }
 .lottie{
@@ -104,6 +105,9 @@ align-items: center;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .grid{
+            max-width: 2200px;
     }
     .swiperslide {
             display: flex;
