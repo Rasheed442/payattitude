@@ -154,11 +154,11 @@ function Features() {
                   <div className={style.contentslides}>
                     <h2>{c?.title}</h2>
                     <p>{c.desc}</p>
-                    <Link href="/">
+                    {/* <Link href="/">
                       <span>
                         Learn more <FaArrowRight size={10} />
                       </span>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </SwiperSlide>

@@ -98,7 +98,7 @@ function MainPage() {
             </div>
           </div>
         </SwiperSlide>
-        {/* <SwiperSlide>
+        <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
               <h2>Pay bills, shop and transact with just your phone number</h2>
@@ -133,7 +133,11 @@ function MainPage() {
               </div>
             </div>
             <div className={style.agentt}>
-              <Image src={imagecaro2} priority />
+              <Image
+                src={imagecaro2}
+                priority
+                style={{ width: "90%", height: "90%" }}
+              />
             </div>
           </div>
         </SwiperSlide>
@@ -179,7 +183,7 @@ function MainPage() {
             </div>
           </div>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <div className={style.carousel1}>
             <div className={style.content}>
               <h2>Withdraw cash with just your phone number</h2>
